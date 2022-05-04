@@ -1,0 +1,99 @@
+
+.our-pr {
+    padding: 70px 0 20px;
+    background: url("../img/our-pro.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.our-pr h2 {
+    text-align: center;
+    color: #A6221D;
+    font-size: 48px;
+    font-weight: 600;
+}
+.our-pr p {
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+}
+.card-title {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+.card-title a {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+.our-pro-sec1 {
+    padding: 50px 0 50px;
+}
+.our-pro-sec2 {
+    margin-top: 25px;
+}
+.card, .card1, .card2, .card3, .card4, .card5{
+    border: none;
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+}
+.card-body img {
+    position: absolute;
+    width: 20%;
+    opacity: 0.9;
+    top: 170px;
+    left: -25px;
+}
+.card-body1 img {
+    position: absolute;
+    width: 20%;
+    opacity: 0.9;
+    top: 170px;
+    left: -25px;
+}
+.abt1-steel a:hover {
+    color: #000;
+}
+@media only screen and (max-width:1024){
+    .card-body img{
+        position: absolute;
+        width: 20%;
+        opacity: 0.9;
+        top: 135px;
+        left: -25px;
+      }
+      .card-body1 img {
+        position: absolute;
+        width: 20%;
+        opacity: 0.9;
+        top: 135px;
+        left: -25px;
+      }
+}
+
+@media only screen and (max-width: 768px){
+    .card-body {
+        flex: 1 1 auto;
+        padding: 5px 10px;
+      }
+      .card-body img {
+        position: absolute;
+        width: 25%;
+        opacity: 0.9;
+        top: 100px;
+        left: -25px;
+      }
+      .card-body1{
+        flex: 1 1 auto;
+        padding: 5px 10px!important;
+      }
+      .card-body1 img {
+        position: absolute;
+        width: 25%;
+        opacity: 0.9;
+        top: 100px;
+        left: -25px;
+      }
+    
+}
+

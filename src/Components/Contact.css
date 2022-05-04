@@ -1,0 +1,49 @@
+.banner {
+    padding: 30px;
+    text-align: center;
+    background: #A6221D;
+}
+.banner-inn h2 {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 700;
+}
+.cont-sec {
+    padding: 70px 0 50px 50px;
+    background: linear-gradient(90deg, #fff 52%,silver 50% 100%);
+}
+.cont-sec a {
+    text-decoration: none;
+    color: #3e3d3d;
+}
+.cont-seca input {
+    border: unset;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.btn-primary {
+    color: #fff;
+    float: right;
+    margin-top: 22px;
+    background-color: #A6221D;
+    border: unset;
+}
+.btn-primary:hover{
+    background: #A6221D;
+    color: #fff;
+}
+.cont-secb {
+    text-align: center;
+    padding: 50px 0 50px;
+}
+.add-1 {
+    margin-bottom: 30px;
+}
+.add-1 h5 {
+    color: #A6221D;
+}
+.cont-secb {
+    text-align: center;
+    padding: 100px 0 50px;
+}

@@ -1,0 +1,54 @@
+.footer {
+    padding: 30px 0 20px;
+}
+.foot-log img {
+    width: 70%;
+}
+.foot-abt p {
+    margin-top: 10px;
+    text-align: justify;
+}
+.foot-cont {
+    padding: 20px 0 0;
+    margin: 0 auto;
+}
+.foot-cont-head h5 {
+    color: #A6221D;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer a {
+    text-decoration: none;
+    color: #383737;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.foot-cont address p {
+    float: right;
+    display: contents;
+}
+.foot-bran-head address p{
+    float: right;
+    display: contents;
+}
+.foot-bran-head h5 {
+    font-size: 16px;
+    color: #A6221D;
+    font-weight: 600;
+}
+.foot-bran {
+    padding: 20px 0 0;
+}
+.foot-copy {
+    text-align: center;
+    font-size: 14px;
+}
+.footer hr {
+    margin: 10px 0;
+}
+address {
+    margin-bottom: 1rem;
+    font-style: normal;
+    font-size: 14px;
+    line-height: inherit;
+}

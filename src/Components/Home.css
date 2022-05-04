@@ -1,0 +1,91 @@
+.tit h2 {
+    color: #A6221D;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.row.top-txt a {
+    text-decoration: none;
+    color: #5c5b5b;
+    margin: 0 auto!important;
+  }
+  .abt1-steel p {
+    text-align: justify;
+    font-size: 16px;
+}
+.abt1-steel a {
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 30px;
+    color: #fff;
+}
+.tit {
+  padding: 20px 0 20px;
+  margin-top: 30px;
+}
+.abt1-a{
+  padding: 10px;
+  background: #5c5b5b;
+  color: #fff;
+}
+a.abt1-a:hover {
+  color: #fff;
+}
+.abt1-steel a:hover {
+  color: #000;
+}
+ .abt1-steel {
+  background: url("../img/abtsec.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem;
+  position: relative;
+}
+.some img {
+  position: absolute;
+  width: 23%;
+  top: 60px;
+  right: 433px;
+}
+@media only screen and (max-width: 1024px){
+  .some img {
+    position: absolute;
+    width: 25%;
+    top: 97px;
+    right: 313px;
+}
+.silder2 {
+  height: 25rem;
+}
+
+}
+@media only screen and (max-width: 768px){
+  .abt1-steel {
+    background: none;
+    position: relative;
+}
+  .some {
+    background: url('../img/img3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 25rem;
+}
+.some img{
+  display: none;
+}
+
+.pro-sli {
+  position: absolute;
+  top: 96px;
+  right: 40px;
+}
+
+.cout-up {
+  padding: 20px 0 20px;
+}
+.count-up h2{
+  font-size: 30px;
+  margin: 0;
+}
+}

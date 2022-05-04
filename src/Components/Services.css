@@ -1,0 +1,22 @@
+.yrs-exp img {
+    width: 100%;
+}
+.cout-up{
+    padding: 70px 0 70px;
+    background: url('../img/yea-ex.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cout-up h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 44px;
+    font-weight: 900;
+}
+.cout-up h5 {
+    text-align: center;
+    color: #F5BD95;
+}
+.cout1, .cout2, .cout3{
+    border-right: 2px solid silver;
+}

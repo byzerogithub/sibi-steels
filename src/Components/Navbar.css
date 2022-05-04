@@ -1,0 +1,94 @@
+.con-de1{
+    display: flex;
+}
+.head-sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.head-sec2 ul {
+  display: flex;
+  padding: 0px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  gap: 20px;
+  list-style: none;
+}
+.con-de1 a {
+    text-decoration: none;
+    color: #383737;
+    margin: 0 5px;
+}
+.con-de1 div {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.nav-top {
+  padding: 15px 0 10px;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    float: right;
+    list-style: none;
+}
+nav.nav.navbar-nav a {
+    color: #343434;
+    text-decoration: none;
+    font-size: 20px;
+}
+a.nav-link.active {
+  color: #A6221D!important;
+}
+.nav-top img {
+    width: 100%;
+}
+.navbar-nav {
+  float: left;
+  margin: 0;
+}
+.menu ul li {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 10px 0px 0px 20px;
+  text-transform: uppercase;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #4e4e4e;
+}
+.na-me {
+  display: flex;
+}
+.na-me {
+  display: flex;
+  align-content: stretch;
+  justify-content: space-between;
+}
+/* top-text section */
+
+/*  */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
