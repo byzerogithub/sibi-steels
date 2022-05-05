@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/sibi-steels/static/css/main.a82d688c.css",
+    "main.js": "/sibi-steels/static/js/main.7e41783b.js",
+    "static/media/img3.png": "/sibi-steels/static/media/img3.61be00970c2a5ec468a5.png",
+    "static/media/Steelrole.png": "/sibi-steels/static/media/Steelrole.7b24123e4dd0283e6166.png",
+    "static/media/yea-ex.png": "/sibi-steels/static/media/yea-ex.1943784739030c1a0e47.png",
+    "static/media/our-pro.png": "/sibi-steels/static/media/our-pro.cf293d9420f4974b350e.png",
+    "static/media/abtsec.png": "/sibi-steels/static/media/abtsec.88bc093731436b124d6e.png",
+    "static/media/ss-fittings.png": "/sibi-steels/static/media/ss-fittings.20816dd5e8e246e06b0c.png",
+    "static/media/ss-angle.png": "/sibi-steels/static/media/ss-angle.ba9cace8b45a933e015f.png",
+    "static/media/ss-tube.png": "/sibi-steels/static/media/ss-tube.f94fd8a88dc178a1f922.png",
+    "static/media/ss-steel.png": "/sibi-steels/static/media/ss-steel.49d4321a58e7f68c4dd4.png",
+    "static/media/slider2.png": "/sibi-steels/static/media/slider2.c55ca3131889c5cf0deb.png",
+    "static/media/ss-handralings.png": "/sibi-steels/static/media/ss-handralings.2ce1122b3c90fba7646b.png",
+    "static/media/ss-bolts.png": "/sibi-steels/static/media/ss-bolts.e33d444e7fca4cd8fb9d.png",
+    "static/media/slider.jpg": "/sibi-steels/static/media/slider.545296a5bea777741b03.jpg",
+    "static/media/logo.png": "/sibi-steels/static/media/logo.68308c3b06beafb3dc7a.png",
+    "static/media/sstube.png": "/sibi-steels/static/media/sstube.f1dc8532190639079765.png",
+    "static/media/sssteel.png": "/sibi-steels/static/media/sssteel.8010d924be96b3979c3a.png",
+    "static/media/ssangles.png": "/sibi-steels/static/media/ssangles.b020fe29e8ee2a51498a.png",
+    "static/media/ssboltsnuts.png": "/sibi-steels/static/media/ssboltsnuts.2a2bd35b4ba2f9c636ea.png",
+    "index.html": "/sibi-steels/index.html",
+    "main.a82d688c.css.map": "/sibi-steels/static/css/main.a82d688c.css.map",
+    "main.7e41783b.js.map": "/sibi-steels/static/js/main.7e41783b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a82d688c.css",
+    "static/js/main.7e41783b.js"
+  ]
+}
