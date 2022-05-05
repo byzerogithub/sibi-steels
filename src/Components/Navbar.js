@@ -24,7 +24,7 @@ export default function Navbar() {
       <div className='nav-it'>
       <nav className='nav navbar-nav'>
       <ul>
-        <li><NavLink exact path="/" className="nav-link">Home</NavLink></li>
+        <li><NavLink exact to="/" className="nav-link">Home</NavLink></li>
         <li><NavLink exact to="/about" className="nav-link">About us</NavLink></li>
         <li><NavLink exact to="/products" className="nav-link">Product</NavLink></li>
         
