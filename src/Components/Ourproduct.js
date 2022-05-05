@@ -12,6 +12,11 @@ import Sshand from '../img/sshandrails.png'
 import Ssfitting from '../img/sspipefitting.png'
 import Ssbolts from '../img/ssboltsnuts.png'
 import Ssangle from '../img/ssangles.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+AOS.init({
+  duration: 1200
+});
 
 
 export default function Ourproduct() {
@@ -27,7 +32,7 @@ export default function Ourproduct() {
       <div className='container'>
         <div className='row'>
           <div className='col-md-4 col-sm-6 col-xs-12'>
-              <div className="card0">
+              <div className="card0" data-aos="fade-down">
               <a href="{./Home}"><img src={Steel} class="card-img-top" alt="Card image cap" /></a>
                      <div className="card-body"> 
                      <img src={Sssteel} class="card-img-top" alt="Card image cap" />                       
@@ -37,7 +42,7 @@ export default function Ourproduct() {
               </div>
 
               <div className='col-md-4 col-sm-6 col-xs-12'>
-              <div className="card1">
+              <div className="card1" data-aos="fade-down">
               <a href="{./Home}"> <img src={Tube} class="card-img-top" alt="Card image cap" /></a>
                      <div className="card-body">  
                      <img src={Sstube} class="card-img-top" alt="Card image cap" />                         
@@ -48,7 +53,7 @@ export default function Ourproduct() {
               </div>
 
               <div className='col-md-4 col-sm-6 col-xs-12'>
-              <div className="card2">
+              <div className="card2" data-aos="fade-down">
               <a href="{./Home}"><img src={Handrailings} class="card-img-top" alt="Card image cap" /> </a>
                      <div className="card-body">  
                      <img src={Sshand} class="card-img-top" alt="Card image cap" />                                                
@@ -59,7 +64,7 @@ export default function Ourproduct() {
          </div>
          <div className='row our-pro-sec2'>
           <div className='col-md-4 col-sm-6 col-xs-12'>
-              <div className="card3">
+              <div className="card3" data-aos="fade-down">
               <a href="{Home}"><img src={Fittings} class="card-img-top" alt="Card image cap" /></a>
                      <div className="card-body1"> 
                      <img src={Ssfitting} class="card-img-top" alt="Card image cap" />                         
@@ -69,7 +74,7 @@ export default function Ourproduct() {
               </div>
 
               <div className='col-md-4 col-sm-6 col-xs-12'>
-              <div className="card4">
+              <div className="card4" data-aos="fade-down">
               <a href="{./Home}"> <img src={Bolts} class="card-img-top" alt="Card image cap" /> </a>
                      <div className="card-body1">
                      <img src={Ssbolts} class="card-img-top" alt="Card image cap" />                         
@@ -79,7 +84,7 @@ export default function Ourproduct() {
               </div>
 
               <div className='col-md-4 col-sm-6 col-xs-12'>
-              <div className="card5">
+              <div className="card5" data-aos="fade-down">
               <a href="{./Home}"><img src={Angles} class="card-img-top" alt="Card image cap" /></a>
                      <div className="card-body1">
                      <img src={Ssangle} class="card-img-top" alt="Card image cap" />                                               
@@ -91,7 +96,6 @@ export default function Ourproduct() {
        </div>
   </div>
   </div>
-  
-    </>
+    </> 
   )
 }
