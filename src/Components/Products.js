@@ -4,7 +4,7 @@ import Productpopup from "./Productpopup";
 export default function Products() {
   return (
     <>
-    <div><Productpopup /></div>
+    {/* <div><Productpopup /></div> */}
     <div><Footer /></div>
     </>
   )

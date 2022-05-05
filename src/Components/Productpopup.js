@@ -52,6 +52,4 @@ export default function Productpopup(){
         }
       }
       
-      render(<App />, document.getElementById("root"));
-      
 }
