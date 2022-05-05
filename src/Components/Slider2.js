@@ -20,7 +20,7 @@ export default function App() {
             <div className="col-md-8 col-sm-12 col-xs-12">
 
             </div>
-            <div className="col-md-4 col-sm-12 col-xs-12 pro-sli">
+            <div className="col-md-4 col-sm-4 col-xs-12 pro-sli">
       <Swiper
         slidesPerView={1}
         spaceBetween={30}

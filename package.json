@@ -1,7 +1,7 @@
 {
   "name": "test",
   "version": "0.1.0",
-  "homepage": "http://demo.getln.com/sibisteels",
+  "homepage": "",
   "private": true,
   "dependencies": {
     "@coreui/react": "^4.1.2",

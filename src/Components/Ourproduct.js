@@ -27,7 +27,7 @@ export default function Ourproduct() {
       <div className='container'>
         <div className='row'>
           <div className='col-md-4 col-sm-6 col-xs-12'>
-              <div className="card">
+              <div className="card0">
               <a href="{./Home}"><img src={Steel} class="card-img-top" alt="Card image cap" /></a>
                      <div className="card-body"> 
                      <img src={Sssteel} class="card-img-top" alt="Card image cap" />                       

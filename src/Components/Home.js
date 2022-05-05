@@ -14,7 +14,7 @@ const Home = () => (
         <div className="abt1-steel">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-5 col-sm-6 col-xs-12">
+                    <div className="col-md-5 col-sm-12 col-xs-12">
 
                         <div className="tit">
                             <div><h2>About sibi Steel</h2></div>

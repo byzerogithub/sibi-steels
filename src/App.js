@@ -3,13 +3,11 @@ import './App.css'
 import './Home.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Navbar from './Components/Navbar'
 import Header from './Components/Header'
 import Home from './Components/Home'
 import About from './Components/About'
 import Contact from './Components/Contact';
-import Ourproducts from './Components/Ourproduct'
-import Slide from './Components/Slider'
+import Navbar from './Components/Navbar'
 import Products from './Components/Products';
 
 

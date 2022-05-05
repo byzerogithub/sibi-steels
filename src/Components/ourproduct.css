@@ -1,99 +1,114 @@
-
 .our-pr {
-    padding: 70px 0 20px;
-    background: url("../img/our-pro.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+  padding: 70px 0 20px;
+  background: url("../img/our-pro.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .our-pr h2 {
-    text-align: center;
-    color: #A6221D;
-    font-size: 48px;
-    font-weight: 600;
+  text-align: center;
+  color: #a6221d;
+  font-size: 48px;
+  font-weight: 600;
 }
 .our-pr p {
-    text-align: center;
-    color: #000;
-    font-weight: 500;
+  text-align: center;
+  color: #000;
+  font-weight: 500;
 }
 .card-title {
-    margin-bottom: 0.5rem;
-    text-align: center;
+  margin-bottom: 0.5rem;
+  text-align: center;
 }
 .card-title a {
-    color: #000;
-    text-decoration: none;
-    text-align: center;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
 }
 .our-pro-sec1 {
-    padding: 50px 0 50px;
+  padding: 50px 0 50px;
 }
 .our-pro-sec2 {
-    margin-top: 25px;
+  margin-top: 25px;
 }
-.card, .card1, .card2, .card3, .card4, .card5{
-    border: none;
-    position: relative;
-    width: 85%;
-    margin: 0 auto;
+.card0,
+.card1,
+.card2,
+.card3,
+.card4,
+.card5 {
+  border: none;
+  position: relative;
+  width: 85%;
+  margin: 0 auto;
 }
 .card-body img {
-    position: absolute;
-    width: 20%;
-    opacity: 0.9;
-    top: 170px;
-    left: -25px;
+  position: absolute;
+  width: 20%;
+  opacity: 0.9;
+  top: 170px;
+  left: -25px;
 }
 .card-body1 img {
-    position: absolute;
-    width: 20%;
-    opacity: 0.9;
-    top: 170px;
-    left: -25px;
+  position: absolute;
+  width: 20%;
+  opacity: 0.9;
+  top: 170px;
+  left: -25px;
 }
 .abt1-steel a:hover {
-    color: #000;
+  color: #000;
 }
-@media only screen and (max-width:1024){
-    .card-body img{
-        position: absolute;
-        width: 20%;
-        opacity: 0.9;
-        top: 135px;
-        left: -25px;
-      }
-      .card-body1 img {
-        position: absolute;
-        width: 20%;
-        opacity: 0.9;
-        top: 135px;
-        left: -25px;
-      }
+@media only screen and (max-width: 1024px) {
+  .card-body1 img {
+    top: 140px;
+  }
+  .our-pro-sec1 {
+    padding: 28px 0 28px;
+  }
+
+
 }
 
-@media only screen and (max-width: 768px){
-    .card-body {
-        flex: 1 1 auto;
-        padding: 5px 10px;
-      }
-      .card-body img {
-        position: absolute;
-        width: 25%;
-        opacity: 0.9;
-        top: 100px;
-        left: -25px;
-      }
-      .card-body1{
-        flex: 1 1 auto;
-        padding: 5px 10px!important;
-      }
-      .card-body1 img {
-        position: absolute;
-        width: 25%;
-        opacity: 0.9;
-        top: 100px;
-        left: -25px;
-      }
-    
+@media only screen and (max-width: 768px) {
+    .our-pr {
+        padding: 30px 0 30px;
+    }
+  .card-body {
+    flex: 1 1 auto;
+    padding: 5px 10px;
+  }
+  .card-body img, .card-body1 img {
+    width: 15%;
+    top: 248px;
+    left: -30px;
 }
-
+h5.card-title {
+  margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.card-title a {
+  font-size: 18px;
+}
+}
+@media only screen and (max-width:425px){
+  .card0, .card1, .card2, .card3, .card4, .card5 {
+    border: none;
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+  }
+  .card-body img, .card-body1 img {
+    width: 21%;
+    top: 130px;
+    left: -23px;
+  }
+}
+@media only screen and (max-width:325px){
+  .card-body img, .card-body1 img {
+    display: none;;
+  }
+  .our-pr h2 {
+    font-size: 30px;
+}
+}

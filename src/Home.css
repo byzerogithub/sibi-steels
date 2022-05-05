@@ -8,3 +8,25 @@
 .abt1-a {
     margin-top: 40px;
 }
+
+@media only screen and (max-width: 1024px){
+    .abt1-steel a {
+        text-decoration: none;
+        font-size: 18px;
+        padding: 5px;
+        border-radius: 30px;
+        color: #fff;
+    }
+}
+@media only screen and (max-width: 768px){
+    .abt1-steel p {
+        text-align: justify;
+        font-size: 14px;
+    }
+    .some {
+        height: 22rem;
+    }
+    .silder2 {
+        height: 20rem;
+    }
+}

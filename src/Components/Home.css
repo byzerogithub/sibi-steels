@@ -89,3 +89,21 @@ a.abt1-a:hover {
   margin: 0;
 }
 }
+@media only screen and (max-width: 767px){
+  .some {
+    background: none;
+}
+.abt1-steel {
+  text-align: center;
+}
+.abt1-steel a {
+  font-size: 16px;
+}
+}
+@media only screen and (max-width: 425px){
+  .abt1-steel p {
+    text-align: center;
+    font-size: 14px;
+}
+
+}
