@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sibi-steels/static/css/main.3e15c5e0.css",
-    "main.js": "/sibi-steels/static/js/main.b727c361.js",
+    "main.js": "/sibi-steels/static/js/main.bba87c6a.js",
     "static/media/slider3.jpg": "/sibi-steels/static/media/slider3.e1c7280c0872b878c351.jpg",
     "static/media/img3.png": "/sibi-steels/static/media/img3.61be00970c2a5ec468a5.png",
     "static/media/Steelrole.png": "/sibi-steels/static/media/Steelrole.7b24123e4dd0283e6166.png",
@@ -24,10 +24,10 @@
     "static/media/ssboltsnuts.png": "/sibi-steels/static/media/ssboltsnuts.2a2bd35b4ba2f9c636ea.png",
     "index.html": "/sibi-steels/index.html",
     "main.3e15c5e0.css.map": "/sibi-steels/static/css/main.3e15c5e0.css.map",
-    "main.b727c361.js.map": "/sibi-steels/static/js/main.b727c361.js.map"
+    "main.bba87c6a.js.map": "/sibi-steels/static/js/main.bba87c6a.js.map"
   },
   "entrypoints": [
     "static/css/main.3e15c5e0.css",
-    "static/js/main.b727c361.js"
+    "static/js/main.bba87c6a.js"
   ]
 }
