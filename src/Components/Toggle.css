@@ -1,0 +1,36 @@
+button {
+    padding: 10px;
+    border-radius: 24px;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    box-shadow: 6px 8px 8px 6px #ccc;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  .toggle-nav {
+    display: none;
+}
+@media only screen and (max-width: 768px){
+    .toggle-nav {
+        display: block;
+    }
+    .toggle-nav button {
+        float: right;
+    }
+    ul.togle-ul {
+            background: #efefef;
+        }
+    .toggle-nav ul li{
+       list-style: none;
+    }
+    .toggle-nav .nav-link {
+        display: block;
+        padding: 5px 0 5px;
+        color: #272d36;
+        text-decoration: none;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    }
+}

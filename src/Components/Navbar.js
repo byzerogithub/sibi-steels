@@ -3,6 +3,7 @@ import Logo from "../img/logo.png";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css"
 import {FiPhone,FiMail} from "react-icons/fi"
+import Togglemenu from './Togglemenu';
 
 
 export default function Navbar() {
@@ -10,7 +11,7 @@ export default function Navbar() {
     <>
      <div className='nav-top'>
        <div className='conatiner'>
-<div className='row'>
+         <div className='row'>
   <div className='col-md-4 col-sm-12 col-xs-12 head-logo'>
     <NavLink exact to ="/"><img src={Logo} /></NavLink>
   </div>
@@ -32,11 +33,27 @@ export default function Navbar() {
       </ul>
     </nav>
       </div>
+      
     </div>
+    
   </div>
 </div>
        </div>
-    
+       <div className='toggle-top'>
+         <div className='container'>
+           <div className='row'>
+             <div className='col-md-6 col-xs-12 col-sm-12'>
+
+             </div>
+             <div className='col-md-6 col-xs-12 col-sm-12'>
+                <div className='toggle-menu'>
+                   <Togglemenu />
+                </div>
+             </div>
+           </div>
+         </div>
+       </div>
+   
     </>
   )
 }
