@@ -11,30 +11,18 @@ const Productzoom = () => (
         <div className='row'>
             <div className='col-md-4 col-sm-6 col-xs-12'>
             <Zoom>
-    <img
-      alt="that wanaka tree"
-      src={medium1}
-      width="200"
-    />
-  </Zoom>
+                  <img alt="img1" src={medium1} width="200" />
+            </Zoom>
+            </div>
+            <div className='col-md-4 col-sm-6 col-xs-12'>
+               <Zoom>
+                   <img alt="img1" src={medium2} width="200" />
+                </Zoom>
             </div>
             <div className='col-md-4 col-sm-6 col-xs-12'>
             <Zoom>
-    <img
-      alt="that wanaka tree"
-      src={medium2}
-      width="200"
-    />
-  </Zoom>
-            </div>
-            <div className='col-md-4 col-sm-6 col-xs-12'>
-            <Zoom>
-    <img
-      alt="that wanaka tree"
-      src={medium3}
-      width="200"
-    />
-  </Zoom>
+                  <img alt="img1" src={medium3} width="200" />
+            </Zoom>
             </div>
         </div>
     </div>
