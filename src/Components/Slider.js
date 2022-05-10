@@ -1,12 +1,11 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { EffectFade } from 'swiper';
 // Import Swiper styles
 import "swiper/css";
-
+import 'swiper/css/effect-fade';
 import "swiper/css/navigation";
-
 import "./Slider.css";
 import banner from "../img/slider.jpg"
 import banner2 from "../img/slider3.jpg"
@@ -28,11 +27,11 @@ export default function App() {
   
         }}
         navigation={true}
-        modules={[Autoplay, Navigation]}
+        modules={[Autoplay, Navigation]} 
         className="ban-Slider"
       >
-        <SwiperSlide><img src={banner2} /></SwiperSlide>
-        <SwiperSlide><img src={banner2} /></SwiperSlide>
+        <SwiperSlide modules={[EffectFade]} effect="fade"><img src={banner2} /></SwiperSlide>
+        <SwiperSlide modules={[EffectFade]} effect="fade"><img src={banner2} /></SwiperSlide>
        
 
       </Swiper>

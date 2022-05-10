@@ -12,19 +12,19 @@ const Productzoom = () => (
     <div className='prod-zoom'>
       <div className='container'>
         <div className='row product-zoom'>
-           <div className='col-md-4 col-sm-6 col-xs-12'>
+           <div className='col-md-4 col-sm-6 col-xs-12' data-aos="zoom-in" data-aos-delay="400">
                   <Zoom>
                       <img alt="img1" src={medium1} width="100%" />
                   </Zoom>
                   <h5>SS - Angles</h5>
             </div>
-            <div className='col-md-4 col-sm-6 col-xs-12'>
+            <div className='col-md-4 col-sm-6 col-xs-12' data-aos="zoom-in" data-aos-delay="800">
                <Zoom>
                    <img alt="img1" src={medium2} width="100%" />
                 </Zoom>
                  <h5>SS - Angles</h5>
             </div>
-            <div className='col-md-4 col-sm-6 col-xs-12'>
+            <div className='col-md-4 col-sm-6 col-xs-12' data-aos="zoom-in" data-aos-delay="1200">
             <Zoom>
                   <img alt="img1" src={medium3} width="100%" />
             </Zoom>
