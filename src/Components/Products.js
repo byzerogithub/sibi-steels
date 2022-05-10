@@ -7,6 +7,11 @@ import Productzoom from './Productzoom'
 export default function Products() {
   return (
     <> 
+     <div class="banner">
+    <div className="banner-inn">
+    <h2>Products</h2>
+</div>
+ </div>
     <div className='container'>
       <div><Productzoom /></div>
     </div>

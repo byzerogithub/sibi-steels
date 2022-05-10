@@ -8,6 +8,7 @@ import medium3 from '../img/ss-tube.png'
 
 const Productzoom = () => (
     <>
+   
     <div className='prod-zoom'>
       <div className='container'>
         <div className='row product-zoom'>
