@@ -31,7 +31,7 @@ export default function App() {
         modules={[Autoplay, Navigation]}
         className="ban-Slider"
       >
-        <SwiperSlide><img src={banner} /></SwiperSlide>
+        <SwiperSlide><img src={banner2} /></SwiperSlide>
         <SwiperSlide><img src={banner2} /></SwiperSlide>
        
 

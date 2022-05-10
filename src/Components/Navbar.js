@@ -48,6 +48,7 @@ export default function Navbar() {
                 <div className='toggle-menu'>
                    <Togglemenu />
                 </div>
+               
              </div>
            </div>
          </div>
