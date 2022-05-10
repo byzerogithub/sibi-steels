@@ -37,7 +37,7 @@ function App() {
                    
                 </div>
                 <Switch>
-                    <Route exact path="/sibi-steels" component={Home}/>
+                    <Route exact path="/" component={Home}/>
                     <Route exatc path="/about" component={About}/>
                     <Route exatc path="/contact" component={Contact}/>
                     <Route exatc path="/products" component={Products}/>

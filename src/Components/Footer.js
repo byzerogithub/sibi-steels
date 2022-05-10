@@ -1,8 +1,10 @@
 import React from 'react'
 import footlogo from "../img/logo.png";
+import Home from './Home';
 import "../Components/Footer.css"
 import {FiPhone,FiMail} from "react-icons/fi"
 import {GrLocation} from "react-icons/gr"
+import { NavLink } from 'react-router-dom';
 
 
 export default function Footer() {
@@ -13,7 +15,7 @@ export default function Footer() {
             <div className='row'>
                 <div className='col-md-4 col-sm-6 col-xs-12 foot-sec1'>
 <div className='foot-log'>
-<img src={footlogo} />
+<NavLink exact to={Home}><img src={footlogo} /></NavLink>
 </div>
 
                 </div>

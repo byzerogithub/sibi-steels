@@ -12,7 +12,7 @@ export default function Navbar() {
        <div className='conatiner'>
 <div className='row'>
   <div className='col-md-4 col-sm-12 col-xs-12 head-logo'>
-    <img src={Logo} />
+    <NavLink exact to ="/"><img src={Logo} /></NavLink>
   </div>
   <div className='col-md-8 col-sm-12 col-xs-12 head-sec2'>
      
