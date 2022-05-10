@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from './Footer'
+import "./Product.css"
 
 import ImageZoom from "react-medium-image-zoom";
 import Productzoom from './Productzoom'
