@@ -43,7 +43,6 @@ export default function Navbar() {
          <div className='container'>
            <div className='row'>
              <div className='col-md-6 col-xs-12 col-sm-12'>
-
              </div>
              <div className='col-md-6 col-xs-12 col-sm-12'>
                 <div className='toggle-menu'>
