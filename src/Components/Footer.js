@@ -15,7 +15,7 @@ export default function Footer() {
             <div className='row'>
                 <div className='col-md-4 col-sm-6 col-xs-12 foot-sec1'>
 <div className='foot-log'>
-<NavLink exact to={Home}><img src={footlogo} /></NavLink>
+<NavLink exact to="/"><img src={footlogo} /></NavLink>
 </div>
 
                 </div>
