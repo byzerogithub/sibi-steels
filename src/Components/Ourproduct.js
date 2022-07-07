@@ -27,7 +27,7 @@ export default function Ourproduct() {
           <p>
             We provide a wide range products. We have products in aluminum and{" "}
             <br />
-            stainless steel, beams, steel tubes, bearings and steel bars.
+            stainless steel, beams, stainless steel tubes, bearings and stainless steel bars.
           </p>
         </div>
 

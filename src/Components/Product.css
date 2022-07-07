@@ -39,3 +39,9 @@
     top: 235px;
     left: -25px;
 }
+.products-section {
+    padding: 50px 0px 40px;
+    background-image: url(../img/our-pro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
