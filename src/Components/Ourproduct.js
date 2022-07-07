@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./ourproduct.css";
 import Steel from "../img/ss-steel.png";
 import Handrailings from "../img/ss-handralings.png";
@@ -27,7 +28,8 @@ export default function Ourproduct() {
           <p>
             We provide a wide range products. We have products in aluminum and{" "}
             <br />
-            stainless steel, beams, stainless steel tubes, bearings and stainless steel bars.
+            stainless steel, beams, stainless steel tubes, bearings and
+            stainless steel bars.
           </p>
         </div>
 
@@ -40,13 +42,13 @@ export default function Ourproduct() {
                   data-aos="fade-down"
                   data-aos-delay="300"
                 >
-                  <a href="{./Home}">
+                  <NavLink exact to="/products" className="nav-link">
                     <img
                       src={Steel}
                       class="card-img-top"
                       alt="Card image cap"
                     />
-                  </a>
+                  </NavLink>
                   <div className="card-body">
                     <img
                       src={Sssteel}
@@ -55,7 +57,9 @@ export default function Ourproduct() {
                     />
                   </div>
                   <h5 className="card-title">
-                    <a href="{./Home}">SS Sheets</a>
+                    <NavLink exact to="/products" className="nav-link">
+                      SS Sheets
+                    </NavLink>
                   </h5>
                 </div>
               </div>
@@ -66,10 +70,10 @@ export default function Ourproduct() {
                   data-aos="fade-down"
                   data-aos-delay="600"
                 >
-                  <a href="{./Home}">
+                  <NavLink exact to="/products" className="nav-link">
                     {" "}
                     <img src={Tube} class="card-img-top" alt="Card image cap" />
-                  </a>
+                  </NavLink>
                   <div className="card-body">
                     <img
                       src={Sstube}
@@ -79,7 +83,9 @@ export default function Ourproduct() {
                   </div>
 
                   <h5 className="card-title">
-                    <a href="{./about}">SS Tubes</a>
+                    <NavLink exact to="/products" className="nav-link">
+                      SS Tubes
+                    </NavLink>
                   </h5>
                 </div>
               </div>
@@ -90,13 +96,13 @@ export default function Ourproduct() {
                   data-aos="fade-down"
                   data-aos-delay="900"
                 >
-                  <a href="{./Home}">
+                  <NavLink exact to="/products" className="nav-link">
                     <img
                       src={Handrailings}
                       class="card-img-top"
                       alt="Card image cap"
                     />{" "}
-                  </a>
+                  </NavLink>
                   <div className="card-body">
                     <img
                       src={Sshand}
@@ -105,7 +111,9 @@ export default function Ourproduct() {
                     />
                   </div>
                   <h5 className="card-title">
-                    <a href="{./about}">SS Handrailings </a>
+                    <NavLink exact to="/products" className="nav-link">
+                      SS Handrailings{" "}
+                    </NavLink>
                   </h5>
                 </div>
               </div>
@@ -117,13 +125,13 @@ export default function Ourproduct() {
                   data-aos="fade-down"
                   data-aos-delay="400"
                 >
-                  <a href="{Home}">
+                  <NavLink exact to="/products" className="nav-link">
                     <img
                       src={Fittings}
                       class="card-img-top"
                       alt="Card image cap"
                     />
-                  </a>
+                  </NavLink>
                   <div className="card-body1">
                     <img
                       src={Ssfitting}
@@ -132,7 +140,9 @@ export default function Ourproduct() {
                     />
                   </div>
                   <h5 className="card-title">
-                    <a href="{./Home}">SS Pipe Fittings</a>
+                    <NavLink exact to="/products" className="nav-link">
+                      SS Pipe Fittings
+                    </NavLink>
                   </h5>
                 </div>
               </div>
@@ -143,14 +153,14 @@ export default function Ourproduct() {
                   data-aos="fade-down"
                   data-aos-delay="700"
                 >
-                  <a href="{./Home}">
+                  <NavLink exact to="/products" className="nav-link">
                     {" "}
                     <img
                       src={Bolts}
                       class="card-img-top"
                       alt="Card image cap"
                     />{" "}
-                  </a>
+                  </NavLink>
                   <div className="card-body1">
                     <img
                       src={Ssbolts}
@@ -159,7 +169,9 @@ export default function Ourproduct() {
                     />
                   </div>
                   <h5 className="card-title">
-                    <a href="{./about}">SS Bolts and Nuts</a>
+                    <NavLink exact to="/products" className="nav-link">
+                      SS Bolts and Nuts
+                    </NavLink>
                   </h5>
                 </div>
               </div>
@@ -170,13 +182,13 @@ export default function Ourproduct() {
                   data-aos="fade-down"
                   data-aos-delay="1000"
                 >
-                  <a href="{./Home}">
+                  <NavLink exact to="/products" className="nav-link">
                     <img
                       src={Angles}
                       class="card-img-top"
                       alt="Card image cap"
                     />
-                  </a>
+                  </NavLink>
                   <div className="card-body1">
                     <img
                       src={Ssangle}
@@ -185,7 +197,9 @@ export default function Ourproduct() {
                     />
                   </div>
                   <h5 className="card-title">
-                    <a href="{./about}">SS Angles</a>
+                    <NavLink exact to="/products" className="nav-link">
+                      SS Angles
+                    </NavLink>
                   </h5>
                 </div>
               </div>
