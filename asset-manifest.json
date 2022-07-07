@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sibi-steels/static/css/main.383a002b.css",
-    "main.js": "/sibi-steels/static/js/main.68a1e19f.js",
+    "main.css": "/sibi-steels/static/css/main.20f4f5af.css",
+    "main.js": "/sibi-steels/static/js/main.325fa448.js",
     "static/media/weldingrod-bg.png": "/sibi-steels/static/media/weldingrod-bg.61203b18d15ee82741fe.png",
     "static/media/slider3.jpg": "/sibi-steels/static/media/slider3.e1c7280c0872b878c351.jpg",
     "static/media/abtsteel-bg.png": "/sibi-steels/static/media/abtsteel-bg.d8c4c873d44a402cd85f.png",
@@ -38,11 +38,11 @@
     "static/media/ssangles.png": "/sibi-steels/static/media/ssangles.b020fe29e8ee2a51498a.png",
     "static/media/ssboltsnuts.png": "/sibi-steels/static/media/ssboltsnuts.2a2bd35b4ba2f9c636ea.png",
     "index.html": "/sibi-steels/index.html",
-    "main.383a002b.css.map": "/sibi-steels/static/css/main.383a002b.css.map",
-    "main.68a1e19f.js.map": "/sibi-steels/static/js/main.68a1e19f.js.map"
+    "main.20f4f5af.css.map": "/sibi-steels/static/css/main.20f4f5af.css.map",
+    "main.325fa448.js.map": "/sibi-steels/static/js/main.325fa448.js.map"
   },
   "entrypoints": [
-    "static/css/main.383a002b.css",
-    "static/js/main.68a1e19f.js"
+    "static/css/main.20f4f5af.css",
+    "static/js/main.325fa448.js"
   ]
 }
