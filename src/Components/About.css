@@ -1,0 +1,30 @@
+.about-section {
+    padding: 50px 0px 30px;
+}
+.shadow-box p {
+    text-align: justify;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.abut-section-bg1 {
+    background-image: url(../img/weldingrod-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.abut-section-bg1 img {
+    position: absolute;
+    z-index: -1;
+    width: 260px;
+    top: -36px;
+    right: -39px;
+}
+.about-section-paragraph-1 {
+    margin-bottom: 50px;
+}
+.abut-section-bg2{
+    background-image: url(../img/abtsteel-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

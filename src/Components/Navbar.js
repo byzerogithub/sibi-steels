@@ -18,10 +18,7 @@ export default function Navbar() {
             </div>
             <div className="col-md-8 col-sm-12 col-xs-12 head-sec2">
               <div className="con-de1">
-                <div>
-                  <FiPhone />
-                  <a href="tel:98940 32722">98940 32722</a>
-                </div>
+                
                 <div>
                   <FiMail />
                   <a href="mailto:sibisteels@gmail.com">sibisteels@gmail.com</a>
@@ -43,7 +40,7 @@ export default function Navbar() {
                     </li>
                     <li>
                       <NavLink exact to="/products" className="nav-link">
-                        Product
+                        Products
                       </NavLink>
                     </li>
 

@@ -15,10 +15,6 @@
   transition: 0.4s;
   width: 33px;
 }
-// .tab-nav-menu {
-//   display: flex;
-//   align-items: center;
-//   justify-content: flex-end;
   .menu-open-button {
     position: relative;
     span {
@@ -131,12 +127,6 @@ nav {
     }
   }
 }
-// }
-// nav.header.active {
-// background-color: var(--secondaryColor);
-// height: 100px;
-// z-index: 99999;
-// }
 
 // -----------------animated toggle bar---------------//
 
@@ -157,4 +147,7 @@ nav {
     color: #fff;
     z-index: 999;
   }
+  .toggle-menu .menu-close-button.active {
+    right: -500px;
+}
 }

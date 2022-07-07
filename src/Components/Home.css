@@ -47,6 +47,90 @@ a.abt1-a:hover {
   top: 60px;
   right: 433px;
 }
+
+/* button hover */
+/* Btn 12 */
+
+.button12 {
+  cursor: pointer;
+  background-color: #000;
+  width: 330px;
+  height: 64px;
+  padding: 20px 50px;
+  line-height: 64px;
+  position: relative;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  z-index: 0;
+  background: #a71e25;
+  margin-left: 20px;
+}
+.button12 span {
+  color: #fff;
+  display: inline-block;
+  padding-left: 35px;
+  text-transform: uppercase;
+  font: bold 18px/66px Arial;
+  transform: scaleX(0.6);
+  letter-spacing: 3px;
+  transform-origin: center left;
+  transition: color 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+.button12 em {
+  position: absolute;
+  height: 1px;
+  background: #fff;
+  width: 47%;
+  right: 23px;
+  top: 50%;
+  transform: scaleX(0.25);
+   -webkit-transform:scaleX(0.25);
+  transform-origin: center right;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+.button12:before,
+.button12:after {
+  content: '';
+  background: #fff;
+  height: 50%;
+  width: 0;
+  position: absolute;
+  transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  -webkit-transition:0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.button12:before {
+  top: 0;
+  left: 0;
+  right: auto;
+}
+.button12:after {
+  bottom: 0;
+  right: 0;
+  left: auto;
+}
+.button12:hover:before {
+  width: 100%;
+  right: 0;
+  left: auto;
+}
+.button12:hover:after {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+.button12:hover span {
+  color: #000;
+}
+.button12:hover em {
+  background: #000;
+  transform: scaleX(.51);
+  transform: scaleX(.51);
+}
+/* end of button hover */
+
 @media only screen and (max-width: 1024px){
   .some img {
     position: absolute;

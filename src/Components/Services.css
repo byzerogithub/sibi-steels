@@ -17,7 +17,7 @@
     text-align: center;
     color: #F5BD95;
 }
-.cout1, .cout2, .cout3{
+.cout1, .cout2{
     border-right: 2px solid silver;
 }
 @media only screen and (max-width: 1024px) {
