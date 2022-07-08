@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/sibi-steels/static/css/main.20f4f5af.css",
-    "main.js": "/sibi-steels/static/js/main.325fa448.js",
+    "main.css": "/sibi-steels/static/css/main.a5b79271.css",
+    "main.js": "/sibi-steels/static/js/main.38c6226f.js",
     "static/media/weldingrod-bg.png": "/sibi-steels/static/media/weldingrod-bg.61203b18d15ee82741fe.png",
-    "static/media/slider3.jpg": "/sibi-steels/static/media/slider3.e1c7280c0872b878c351.jpg",
     "static/media/abtsteel-bg.png": "/sibi-steels/static/media/abtsteel-bg.d8c4c873d44a402cd85f.png",
     "static/media/img3.png": "/sibi-steels/static/media/img3.61be00970c2a5ec468a5.png",
+    "static/media/slider5.png": "/sibi-steels/static/media/slider5.a6fda2a36810d4620db4.png",
+    "static/media/slider3.png": "/sibi-steels/static/media/slider3.9f2b9830a9f1c55cf98c.png",
+    "static/media/slider4.png": "/sibi-steels/static/media/slider4.a7e9a9038856a007bef8.png",
+    "static/media/slider6.png": "/sibi-steels/static/media/slider6.900abd94fb0bee13d3c8.png",
     "static/media/Steelrole.png": "/sibi-steels/static/media/Steelrole.7b24123e4dd0283e6166.png",
     "static/media/yea-ex.png": "/sibi-steels/static/media/yea-ex.1943784739030c1a0e47.png",
     "static/media/our-pro.png": "/sibi-steels/static/media/our-pro.cf293d9420f4974b350e.png",
@@ -14,6 +17,7 @@
     "static/media/ss-fittings.png": "/sibi-steels/static/media/ss-fittings.20816dd5e8e246e06b0c.png",
     "static/media/ss-polishpipes.png": "/sibi-steels/static/media/ss-polishpipes.412fc829e4d499670f57.png",
     "static/media/ss-angle.png": "/sibi-steels/static/media/ss-angle.ba9cace8b45a933e015f.png",
+    "static/media/bolt-nut.png": "/sibi-steels/static/media/bolt-nut.8a96af8e6f99b1903aa6.png",
     "static/media/ss-tube.png": "/sibi-steels/static/media/ss-tube.f94fd8a88dc178a1f922.png",
     "static/media/ss-steel.png": "/sibi-steels/static/media/ss-steel.49d4321a58e7f68c4dd4.png",
     "static/media/slider2.png": "/sibi-steels/static/media/slider2.c55ca3131889c5cf0deb.png",
@@ -24,6 +28,7 @@
     "static/media/ss-rod.png": "/sibi-steels/static/media/ss-rod.898b247e301250aa9cdb.png",
     "static/media/flanges.png": "/sibi-steels/static/media/flanges.ed2c8aec4658d35f4dfa.png",
     "static/media/ss-flats.png": "/sibi-steels/static/media/ss-flats.fc319aaf80c8e1fcef0b.png",
+    "static/media/vector1.png": "/sibi-steels/static/media/vector1.7329752ae283db025326.png",
     "static/media/manholecover.png": "/sibi-steels/static/media/manholecover.c4fcce4a36912bbba917.png",
     "static/media/fastners.png": "/sibi-steels/static/media/fastners.7a0b76490ef4b36ca279.png",
     "static/media/industrialfitting.png": "/sibi-steels/static/media/industrialfitting.d699909789505a62036f.png",
@@ -32,17 +37,18 @@
     "static/media/weldingrod.png": "/sibi-steels/static/media/weldingrod.11f8b802846ccb362aea.png",
     "static/media/Abrasivewheels.png": "/sibi-steels/static/media/Abrasivewheels.d512ea267f4c142284d9.png",
     "static/media/logo.png": "/sibi-steels/static/media/logo.68308c3b06beafb3dc7a.png",
+    "static/media/abstarct-1.png": "/sibi-steels/static/media/abstarct-1.ffac6f5c8d82a6cbc680.png",
     "static/media/abstract.png": "/sibi-steels/static/media/abstract.67bcb8d7797ef86f0d9f.png",
     "static/media/sstube.png": "/sibi-steels/static/media/sstube.f1dc8532190639079765.png",
     "static/media/sssteel.png": "/sibi-steels/static/media/sssteel.8010d924be96b3979c3a.png",
     "static/media/ssangles.png": "/sibi-steels/static/media/ssangles.b020fe29e8ee2a51498a.png",
     "static/media/ssboltsnuts.png": "/sibi-steels/static/media/ssboltsnuts.2a2bd35b4ba2f9c636ea.png",
     "index.html": "/sibi-steels/index.html",
-    "main.20f4f5af.css.map": "/sibi-steels/static/css/main.20f4f5af.css.map",
-    "main.325fa448.js.map": "/sibi-steels/static/js/main.325fa448.js.map"
+    "main.a5b79271.css.map": "/sibi-steels/static/css/main.a5b79271.css.map",
+    "main.38c6226f.js.map": "/sibi-steels/static/js/main.38c6226f.js.map"
   },
   "entrypoints": [
-    "static/css/main.20f4f5af.css",
-    "static/js/main.325fa448.js"
+    "static/css/main.a5b79271.css",
+    "static/js/main.38c6226f.js"
   ]
 }
