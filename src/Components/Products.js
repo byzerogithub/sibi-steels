@@ -8,7 +8,7 @@ import Steel from "../img/ss-polishpipes.png";
 import Handrailings from "../img/ss-rod.png";
 import Fittings from "../img/ss-angle (1).png";
 import Tube from "../img/ss-sheets.png";
-
+import Bolts from "../img/bolt-nut.png";
 import Sssteel from "../img/sssteel.png";
 import Sstube from "../img/sstube.png";
 import Sshand from "../img/sshandrails.png";
@@ -149,67 +149,17 @@ export default function Products() {
                 </h5>
               </div>
             </div>
-
-            <div className="col-md-4 col-sm-6 col-xs-12">
-              <div className="card5" data-aos="fade-down" data-aos-delay="1000">
-                <NavLink exact to="/products" className="nav-link">
-                  <img
-                    src={Pipefitting}
-                    class="card-img-top"
-                    alt="Card image cap"
-                  />
-                </NavLink>
-                <div className="product-body-sec1">
-                  <img
-                    src={Ssangle}
-                    class="card-img-top"
-                    alt="Card image cap"
-                  />
-                </div>
-                <h5 className="card-title">
-                  <NavLink exact to="/products" className="nav-link">
-                    Pipe Fitting
-                  </NavLink>
-                </h5>
-              </div>
-            </div>
-          </div>
-          <div className="row our-pro-sec2">
-            <div className="col-md-4 col-sm-6 col-xs-12">
-              <div className="card3" data-aos="fade-down" data-aos-delay="400">
-                <NavLink exact to="/products" className="nav-link">
-                  <img
-                    src={Industrialfitting}
-                    class="card-img-top"
-                    alt="Card image cap"
-                  />
-                </NavLink>
-                <div className="product-body-sec1">
-                  <img
-                    src={Ssfitting}
-                    class="card-img-top"
-                    alt="Card image cap"
-                  />
-                </div>
-                <h5 className="card-title">
-                  <NavLink exact to="/products" className="nav-link">
-                    Industrial Fittings
-                  </NavLink>
-                </h5>
-              </div>
-            </div>
-
             <div className="col-md-4 col-sm-6 col-xs-12">
               <div className="card4" data-aos="fade-down" data-aos-delay="700">
                 <NavLink exact to="/products" className="nav-link">
                   {" "}
                   <img
-                    src={Fasteners}
+                    src={Bolts}
                     class="card-img-top"
                     alt="Card image cap"
                   />{" "}
                 </NavLink>
-                <div className="product-body-sec1">
+                <div className="product-body-sec">
                   <img
                     src={Ssbolts}
                     class="card-img-top"
@@ -218,104 +168,95 @@ export default function Products() {
                 </div>
                 <h5 className="card-title">
                   <NavLink exact to="/products" className="nav-link">
-                    Fastners
+                    SS Bolts and Nuts
                   </NavLink>
                 </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="product-section-2">
+        <div className="container">
+          <div className="row our-pro-sec2">
+            <div className="col-md-4 col-sm-6 col-xs-12">
+              <div className="card5" data-aos="fade-down" data-aos-delay="1000">
+                <NavLink exact to="/products" className="nav-link">
+                  <img id="prod-img-2"
+                    src={Pipefitting}
+                    class="card-img-top"
+                    alt="Card image cap"
+                  />
+                </NavLink>
+              </div>
+            </div>
+            <div className="col-md-4 col-sm-6 col-xs-12">
+              <div className="card3" data-aos="fade-down" data-aos-delay="400">
+                <NavLink exact to="/products" className="nav-link">
+                  <img id="prod-img-2"
+                    src={Industrialfitting}
+                    class="card-img-top"
+                    alt="Card image cap"
+                  />
+                </NavLink>
+              </div>
+            </div>
+
+            <div className="col-md-4 col-sm-6 col-xs-12">
+              <div className="card4" data-aos="fade-down" data-aos-delay="700">
+                <NavLink exact to="/products" className="nav-link">
+                  {" "}
+                  <img id="prod-img-2"
+                    src={Fasteners}
+                    class="card-img-top"
+                    alt="Card image cap"
+                  />{" "}
+                </NavLink>
               </div>
             </div>
 
             <div className="col-md-4 col-sm-6 col-xs-12">
               <div className="card5" data-aos="fade-down" data-aos-delay="1000">
                 <NavLink exact to="/products" className="nav-link">
-                  <img
+                  <img id="prod-img-2"
                     src={Flanges}
                     class="card-img-top"
                     alt="Card image cap"
                   />
                 </NavLink>
-                <div className="product-body-sec1">
-                  <img
-                    src={Ssangle}
-                    class="card-img-top"
-                    alt="Card image cap"
-                  />
-                </div>
-                <h5 className="card-title">
-                  <NavLink exact to="/products" className="nav-link">
-                    Flanges
-                  </NavLink>
-                </h5>
               </div>
             </div>
-          </div>
-          <div className="row our-pro-sec2">
             <div className="col-md-4 col-sm-6 col-xs-12">
               <div className="card3" data-aos="fade-down" data-aos-delay="400">
                 <NavLink exact to="/products" className="nav-link">
-                  <img
+                  <img id="prod-img-2"
                     src={Weldingrod}
                     class="card-img-top"
                     alt="Card image cap"
                   />
                 </NavLink>
-                <div className="product-body-sec1">
-                  <img
-                    src={Ssfitting}
-                    class="card-img-top"
-                    alt="Card image cap"
-                  />
-                </div>
-                <h5 className="card-title">
-                  <NavLink exact to="/products" className="nav-link">
-                    Welding Rods
-                  </NavLink>
-                </h5>
               </div>
             </div>
             <div className="col-md-4 col-sm-6 col-xs-12">
               <div className="card3" data-aos="fade-down" data-aos-delay="400">
                 <NavLink exact to="/products" className="nav-link">
-                  <img
+                  <img id="prod-img-2"
                     src={Abrasivewheel}
                     class="card-img-top"
                     alt="Card image cap"
                   />
                 </NavLink>
-                <div className="product-body-sec1">
-                  <img
-                    src={Ssfitting}
-                    class="card-img-top"
-                    alt="Card image cap"
-                  />
-                </div>
-                <h5 className="card-title">
-                  <NavLink exact to="/products" className="nav-link">
-                    Abrasive Wheels
-                  </NavLink>
-                </h5>
               </div>
             </div>
             <div className="col-md-4 col-sm-6 col-xs-12">
               <div className="card3" data-aos="fade-down" data-aos-delay="400">
                 <NavLink exact to="/products" className="nav-link">
-                  <img
+                  <img id="prod-img-2"
                     src={Manholecover}
                     class="card-img-top"
                     alt="Card image cap"
                   />
                 </NavLink>
-                <div className="product-body-sec1">
-                  <img
-                    src={Ssfitting}
-                    class="card-img-top"
-                    alt="Card image cap"
-                  />
-                </div>
-                <h5 className="card-title">
-                  <NavLink exact to="/products" className="nav-link">
-                    Manhole Cover
-                  </NavLink>
-                </h5>
               </div>
             </div>
           </div>

@@ -48,7 +48,18 @@
     text-align: center;
     padding: 100px 0 50px;
 }
-
+.cont-sec address {
+    margin-bottom: 1rem;
+    font-style: normal;
+    display: flex;
+    font-size: 14px;
+    line-height: inherit;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: baseline;
+    gap: 8px;
+}
 @media only screen and (max-width:767px) {
     .cont-sec {
         padding: 30px 0 20px 0px;

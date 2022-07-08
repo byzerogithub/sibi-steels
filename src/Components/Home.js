@@ -37,13 +37,11 @@ const Home = () => (
                 </p>
               </div>
               <div>
-              <NavLink exact to="/about" className="nav-link">
-                        About us
-                      </NavLink>
-                <a href="{./about}" class="button12">
+                
+                <NavLink exact to="/about" className="button12">
                   <em> </em>
                   <span>See more</span>
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>

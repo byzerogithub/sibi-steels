@@ -10,7 +10,7 @@ export default function Navbar() {
     <>
       <div className="nav-top">
         <div className="conatiner">
-          <div className="row">
+          <div className="row top-header">
             <div className="col-md-4 col-sm-12 col-xs-12 head-logo">
               <NavLink exact to="/">
                 <img src={Logo} />

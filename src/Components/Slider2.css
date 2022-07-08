@@ -38,6 +38,10 @@
     .silder2 {
         height: 21rem;
       }
+      .ourpro-img h3 {
+        text-align: center;
+        font-size: 14px;
+    }
 }
 @media only screen and (max-width: 425px) {
     .silder2 {

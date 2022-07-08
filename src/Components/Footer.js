@@ -11,7 +11,7 @@ export default function Footer() {
     <>
       <div className="footer">
         <div className="container">
-          <div className="row">
+          <div className="row footer-sec">
             <div className="col-md-4 col-sm-6 col-xs-12 foot-sec1">
               <div className="foot-log">
                 <NavLink exact to="/">
@@ -36,7 +36,7 @@ export default function Footer() {
                 </div>
                 <div className="cont-footer">
                   <FiPhone />
-                  <a href="tel:427 2353832">+91 427 2353832</a>
+                  <a href="tel:914272353822">+91 - 427 - 2353822</a>
                 </div>
                 <div className="cont-footer">
                   <FiMail />
@@ -58,7 +58,7 @@ export default function Footer() {
                   </address>
                 </div>
                 <div className="cont-footer1">
-                <FiPhone /><a href="tel:427 2353832">+91 427 2353832</a>
+                <FiPhone /><a href="tel:+914242222822">+91 - 424 - 2222822</a>
                 </div>
                 <div className="cont-footer1">
                 <FiMail /><a href="mailto:sibisteels@gmail.com">sibisteels@gmail.com</a>

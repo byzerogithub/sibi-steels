@@ -76,7 +76,7 @@ export default function Contact() {
                     <br /> Salem -636009, Tamilnadu, India.
                   </p>
                 </address>
-                <a href="tel:427 2353832">+91 427 2353832</a> <br />
+                <a href="tel:+914272353822">+91 - 427 - 2353822</a> <br />
                 <a href="mailto:sibisteels@gmail.com">sibisteels@gmail.com</a>
               </div>
               <div className="add-1">
@@ -88,7 +88,7 @@ export default function Contact() {
                   </p>
                 </address>
 
-                <a href="tel:427 2353832">+91 427 2353832</a>
+                <a href="tel:+914242222822">+91 - 424 - 2222822</a>
                 <br />
                 <a href="mailto:sibisteels@gmail.com">sibisteels@gmail.com</a>
               </div>

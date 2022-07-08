@@ -27,4 +27,24 @@
     background-image: url(../img/abtsteel-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+}
+.abut-section-bg2 img {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    opacity: 0.2;
+    width: 90%;
+    left: -75px;
+}
+.shadow-box {
+    text-align: center;
+}
+.shadow-box img {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.15;
+    top: 262px;
+    width: 40%;
+    /* margin: 0 auto; */
 }

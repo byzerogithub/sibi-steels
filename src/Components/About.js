@@ -1,7 +1,9 @@
 import React from "react";
 import "./About.css";
 import Footer from "./Footer";
-import Abstractbg from "../img/abstract.png"
+import Abstractbg from "../img/abstract.png";
+import Abstract2 from "../img/abstarct-1.png";
+import Goldvector from "../img/vector1.png";
 export default function About() {
   return (
     <>
@@ -29,6 +31,7 @@ export default function About() {
                 of immense help in creating a niche for ourselves as a principal
                 supplier of stainless steel products.
               </p>
+              <img src={Goldvector} />
               <p>
                 Keeping a track of the latest market demands for various
                 stainless steel products, we are offering top-notch quality
@@ -48,7 +51,9 @@ export default function About() {
             </div>
           </div>
           <div className="row about-section-paragraph-1">
-          <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 abut-section-bg2"></div>
+          <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 abut-section-bg2">
+            <img src={Abstract2} />
+          </div>
             <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 shadow-box">
               <p>
                 Our range has diverse application areas such as Textile, Sago
