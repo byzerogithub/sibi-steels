@@ -56,7 +56,7 @@ export default function Products() {
                 </div>
                 <h5 className="card-title">
                   <NavLink exact to="/products" className="nav-link">
-                    SS polishpipes
+                    SS Polishpipes
                   </NavLink>
                 </h5>
               </div>
