@@ -8,6 +8,11 @@ import Dotvector from "../img/dotsquare-vector.png";
 import Aboutsteel from "../img/abtsteel-bg.png";
 import Handrail from "../img/ss-handralings.png";
 import Bolt from "../img/ss-bolts.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init({
+  duration: 1200,
+});
 
 export default function About() {
   return (
@@ -20,7 +25,11 @@ export default function About() {
       <div className="about-section">
         <div className="container">
           <div className="row about-section-paragraph-1">
-            <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 shadow-box">
+            <div
+              className="col-lg-8 col-md-8 col-sm-12 col-xs-12 shadow-box"
+              data-aos="fade-left"
+              data-aos-delay="600"
+            >
               <p>
                 Sibi Steels is one of the trusted names engaged as a stockist,
                 wholesaler, retailer of stainless steel products like stainless
@@ -40,14 +49,18 @@ export default function About() {
             </div>
 
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 abut-section-bg1">
-            <img src={Round} />
+              <img src={Round} data-aos="fade-right" data-aos-delay="800" />
             </div>
           </div>
           <div className="row about-section-paragraph-1">
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 abut-section-bg1">
-            <img src={Aboutsteel} />
+              <img src={Aboutsteel} data-aos="fade-left" data-aos-delay="600" />
             </div>
-            <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 shadow-box2">
+            <div
+              className="col-lg-8 col-md-8 col-sm-12 col-xs-12 shadow-box2"
+              data-aos="fade-right"
+              data-aos-delay="600"
+            >
               <p>
                 Keeping a track of the latest market demands for various
                 stainless steel products, we are offering top-notch quality
@@ -60,11 +73,15 @@ export default function About() {
                 Stainless Steel Pipes, Welded Stainless Steel Pipes, Round /
                 Square Stainless Steel Tubes etc.
               </p>
-              <img src={Globevector}/>
+              <img src={Globevector} />
             </div>
           </div>
           <div className="row about-section-paragraph-1">
-            <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 shadow-box3">
+            <div
+              className="col-lg-8 col-md-8 col-sm-12 col-xs-12 shadow-box3"
+              data-aos="fade-right"
+              data-aos-delay="600"
+            >
               <p>
                 Our range has diverse application areas such as Textile, Sago
                 Industries, Construction, Automobile Industries, Wet Grinders,
@@ -74,15 +91,19 @@ export default function About() {
               </p>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 abut-section-bg2">
-            <img src={Handrail} />
+              <img src={Handrail} data-aos="fade-right" data-aos-delay="600" />
             </div>
           </div>
           <div className="row about-section-paragraph-1">
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 abut-section-bg2">
-            <img src={Bolt} />
+              <img src={Bolt} data-aos="fade-right" data-aos-delay="600" />
             </div>
-            <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 shadow-box4">
-              <p>
+            <div
+              className="col-lg-8 col-md-8 col-sm-12 col-xs-12 shadow-box4"
+              
+            >
+              <p className="parag" data-aos="fade-left"
+              data-aos-delay="600">
                 Catering to our client requirement is possible owing to our
                 reliable and trusted vendors spread across the country. We act
                 as a vital link between our vendors and clients and keep both of
@@ -92,7 +113,7 @@ export default function About() {
                 manner has maintained our market credibility and won us the
                 trust of our clients.
               </p>
-              <img src={Abstract2}/>
+              <img src={Abstract2} />
             </div>
           </div>
         </div>
