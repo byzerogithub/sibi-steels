@@ -37,7 +37,6 @@ const Home = () => (
                 </p>
               </div>
               <div>
-                
                 <NavLink exact to="/about" className="button12">
                   <em> </em>
                   <span>See more</span>

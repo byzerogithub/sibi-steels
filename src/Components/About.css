@@ -1,42 +1,100 @@
 .about-section {
     padding: 50px 0px 30px;
+    position: relative;
 }
-.shadow-box p {
+.shadow-box p, .shadow-box4 p, .shadow-box3 p, .shadow-box2 p{
     text-align: justify;
     line-height: 30px;
     font-size: 14px;
 }
 
-.abut-section-bg1 {
+/* .abut-section-bg1 {
     background-image: url(../img/weldingrod-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+} */
+.abut-section-bg1, .abut-section-bg2{
+    text-align: center;
 }
-.abut-section-bg1 img {
-    position: absolute;
-    z-index: -1;
-    width: 260px;
-    top: -36px;
-    right: -39px;
+.abut-section-bg1 img, .abut-section-bg2 img {
+    width: 230px;
+    height: 230px;
+    border: 5px solid #999;
+    border-radius: 50%;
 }
 .about-section-paragraph-1 {
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
-.abut-section-bg2{
-    background-image: url(../img/abtsteel-bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-}
-.abut-section-bg2 img {
-    z-index: -1;
+.shadow-box img{
     position: absolute;
-    top: 0;
-    opacity: 0.2;
-    width: 90%;
-    left: -75px;
+    width: 50%;
+    z-index: -1;
 }
+.shadow-box2 img {
+    position: absolute;
+    width: 70%;
+    z-index: -1;
+    right: 0;
+    opacity: 0.2;
+    top: -90px;
+    right: 0;
+}
+.shadow-box::after {
+    content: "";
+    width: 3px solid #000;
+    height: 4px solid #000;
+    border-top: 68px solid transparent;
+    border-left: 72px solid #5a5e61;
+    border-bottom: 65px solid transparent;
+    position: absolute;
+    top: 70px;
+    right: -72px;
+}
+.shadow-box3::after {
+    content: "";
+    width: 3px solid #000;
+    height: 4px solid #000;
+    border-top: 50px solid transparent;
+    border-left: 73px solid #5a5e61;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    top: 15px;
+    right: -72px;
+}
+.shadow-box2::before, .shadow-box4::before {
+    content: "";
+    width: 3px solid #000;
+    height: 4px solid #000;
+    border-top: 68px solid transparent;
+    border-right: 72px solid #5a5e61;
+    border-bottom: 65px solid transparent;
+    position: absolute;
+    top: 34px;
+    left: -72px;
+}
+.shadow-box4 img {
+    position: absolute;
+    opacity: 0.3;
+    width: 30%;
+    top: 0;
+    z-index: -1;
+    left: -354px;
+}
+.shadow-box, .shadow-box4, .shadow-box3, .shadow-box2 {
+    position: relative;
+    color: #fff;
+    background: #b70200ed;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0.4px 0.5px 3.6px rgb(0 0 0 / 5%), 1.1px 1.3px 10px rgb(0 0 0 / 8%), 2.7px 3px 24.1px rgb(0 0 0 / 10%), 9px 10px 80px rgb(0 0 0 / 15%);
+}
+
 .shadow-box {
     text-align: center;
 }
@@ -44,7 +102,7 @@
     position: absolute;
     z-index: -1;
     opacity: 0.15;
-    top: 262px;
-    width: 40%;
-    /* margin: 0 auto; */
+    top: -35px;
+    left: -60px;
+    width: 20%;
 }

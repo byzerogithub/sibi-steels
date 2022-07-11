@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;
+}
 .tit h2 {
     color: #A6221D;
     margin-bottom: 30px;

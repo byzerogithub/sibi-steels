@@ -1,9 +1,14 @@
 import React from "react";
 import "./About.css";
 import Footer from "./Footer";
-import Abstractbg from "../img/abstract.png";
+import Round from "../img/weldingrod-bg.png";
 import Abstract2 from "../img/abstarct-1.png";
-import Goldvector from "../img/vector1.png";
+import Globevector from "../img/spiral-background.png";
+import Dotvector from "../img/dotsquare-vector.png";
+import Aboutsteel from "../img/abtsteel-bg.png";
+import Handrail from "../img/ss-handralings.png";
+import Bolt from "../img/ss-bolts.png";
+
 export default function About() {
   return (
     <>
@@ -31,7 +36,18 @@ export default function About() {
                 of immense help in creating a niche for ourselves as a principal
                 supplier of stainless steel products.
               </p>
-              <img src={Goldvector} />
+              <img src={Dotvector} />
+            </div>
+
+            <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 abut-section-bg1">
+            <img src={Round} />
+            </div>
+          </div>
+          <div className="row about-section-paragraph-1">
+            <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 abut-section-bg1">
+            <img src={Aboutsteel} />
+            </div>
+            <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 shadow-box2">
               <p>
                 Keeping a track of the latest market demands for various
                 stainless steel products, we are offering top-notch quality
@@ -44,17 +60,11 @@ export default function About() {
                 Stainless Steel Pipes, Welded Stainless Steel Pipes, Round /
                 Square Stainless Steel Tubes etc.
               </p>
-            </div>
-
-            <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 abut-section-bg1">
-            <img src={Abstractbg} />
+              <img src={Globevector}/>
             </div>
           </div>
           <div className="row about-section-paragraph-1">
-          <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 abut-section-bg2">
-            <img src={Abstract2} />
-          </div>
-            <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 shadow-box">
+            <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 shadow-box3">
               <p>
                 Our range has diverse application areas such as Textile, Sago
                 Industries, Construction, Automobile Industries, Wet Grinders,
@@ -62,6 +72,16 @@ export default function About() {
                 Construction, Modern Rice Mill, Hospital Equipment's, Water
                 treatment / Purification plants, Refrigeration, Furniture etc.
               </p>
+            </div>
+            <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 abut-section-bg2">
+            <img src={Handrail} />
+            </div>
+          </div>
+          <div className="row about-section-paragraph-1">
+            <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 abut-section-bg2">
+            <img src={Bolt} />
+            </div>
+            <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 shadow-box4">
               <p>
                 Catering to our client requirement is possible owing to our
                 reliable and trusted vendors spread across the country. We act
@@ -72,8 +92,8 @@ export default function About() {
                 manner has maintained our market credibility and won us the
                 trust of our clients.
               </p>
+              <img src={Abstract2}/>
             </div>
-            
           </div>
         </div>
       </div>
