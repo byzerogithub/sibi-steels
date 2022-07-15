@@ -1,25 +1,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./ourproduct.css";
-import Steel from "../img/ss-steel.png";
-import Handrailings from "../img/ss-handralings.png";
-import Fittings from "../img/ss-fittings.png";
-import Tube from "../img/ss-tube.png";
-import Bolts from "../img/ss-bolts.png";
-import Angles from "../img/ss-angle.png";
-import Sssteel from "../img/sssteel.png";
-import Sstube from "../img/sstube.png";
-import Sshand from "../img/sshandrails.png";
-import Ssfitting from "../img/sspipefitting.png";
-import Ssbolts from "../img/ssboltsnuts.png";
-import Ssangle from "../img/ssangles.png";
-import polishpipes from "../img/ss-polishpipes.png";
-import SheetsCoils from "../img/ss-sheets.png";
-import SSRods from "../img/ss-rod.png";
-import SSAngles from "../img/ss-angle (1).png";
-import Ssflats from "../img/ss-flats.png";
-import Ssboltsnuts from "../img/bolt-nut.png";
-
+// import "./ourproduct.css";
+import Sssteel from "../../../../img/sssteel.png";
+import Sstube from "../../../../img/sstube.png";
+import Sshand from "../../../../img/sshandrails.png";
+import Ssfitting from "../../../../img/sspipefitting.png";
+import Ssbolts from "../../../../img/ssboltsnuts.png";
+import Ssangle from "../../../../img/ssangles.png";
+import polishpipes from "../../../../img/ss-polishpipes.png";
+import SheetsCoils from "../../../../img/ss-sheets.png";
+import SSRods from "../../../../img/ss-rod.png";
+import SSAngles from "../../../../img/ss-angle (1).png";
+import Ssflats from "../../../../img/ss-flats.png";
+import Ssboltsnuts from "../../../../img/bolt-nut.png";
 
 
 

@@ -39,8 +39,10 @@
     padding: 20px 0 0;
 }
 .foot-copy {
-    text-align: center;
     font-size: 14px;
+}
+.foot-Devlope {
+    text-align: right;
 }
 .footer hr {
     margin: 10px 0;
@@ -87,7 +89,19 @@ address {
     }
     .footer-sec {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
         align-items: center;
     }
+}
+
+@media only screen and (max-width: 420px){
+.footer-sec {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
 }

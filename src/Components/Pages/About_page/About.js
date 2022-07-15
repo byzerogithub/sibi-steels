@@ -1,13 +1,19 @@
 import React from "react";
 import "./About.css";
-import Footer from "./Footer";
-import Round from "../img/weldingrod-bg.png";
-import Abstract2 from "../img/abstarct-1.png";
-import Globevector from "../img/spiral-background.png";
-import Dotvector from "../img/dotsquare-vector.png";
-import Aboutsteel from "../img/abtsteel-bg.png";
-import Handrail from "../img/ss-handralings.png";
-import Bolt from "../img/ss-bolts.png";
+// import Footer from "./Footer";
+
+// layout images
+import Round from "../../../img/weldingrod-bg.png";
+import Abstract2 from "../../../img/abstarct-1.png";
+import Globevector from "../../../img/spiral-background.png";
+import Dotvector from "../../../img/dotsquare-vector.png";
+import Aboutsteel from "../../../img/abtsteel-bg.png";
+import Handrail from "../../../img/ss-handralings.png";
+import Bolt from "../../../img/ss-bolts.png";
+
+
+// fade effects
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init({
@@ -119,7 +125,7 @@ export default function About() {
         </div>
       </div>
       <div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );

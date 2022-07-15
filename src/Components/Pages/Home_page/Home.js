@@ -1,12 +1,14 @@
 import React from "react";
-import "./Home.css";
-import Slider from "./Slider";
-import Ourproduct from "./Ourproduct";
+// import "./Home_layout.scss";
+import Slider from "./Layout/Slider";
+import Ourproduct from "./Layout/Ourproduct";
 import { NavLink } from "react-router-dom";
-import Footer from "./Footer";
-import Services from "./Services";
-import Slider2 from "./Slider2";
-import Role from "../img/Steelrole.png";
+// import Footer from "../../Footer";
+import Services from "./Layout/Services";
+import Slider2 from "./Layout/Slider2";
+// import Role from "../img/Steelrole.png";
+
+import "./Layout/Home_layout.scss";
 
 const Home = () => (
   <>
@@ -45,23 +47,15 @@ const Home = () => (
             </div>
           </div>
           <div className="col-md-7 col-sm-6 col-xs-12 some">
-            <img src={Role} />
+            {/* <img src={Role} /> */}
           </div>
         </div>
       </div>
     </div>
-    <div>
-      <Slider2 />
-    </div>
-    <div>
-      <Ourproduct />
-    </div>
-    <div>
-      <Services />
-    </div>
-    <div>
-      <Footer />
-    </div>
+    <div><Slider2 /></div>
+    <div><Ourproduct /></div>
+    <div><Services /></div>
+    <div>{/* <Footer /> */}</div>
   </>
 );
 

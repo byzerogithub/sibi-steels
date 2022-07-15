@@ -1,10 +1,13 @@
 import React from "react";
-import footlogo from "../img/logo.png";
-import Home from "./Home";
-import "../Components/Footer.css";
+
 import { FiPhone, FiMail, FiMapPin } from "react-icons/fi";
-import { GrLocation } from "react-icons/gr";
+// import { GrLocation } from "react-icons/gr";
 import { NavLink } from "react-router-dom";
+
+import footlogo from "../../../img/logo.png";
+
+import "./Footer";
+import "./Footer.css";
 
 export default function Footer() {
   return (
@@ -51,26 +54,43 @@ export default function Footer() {
                 </div>
                 <div className="foot-cont">
                   <address>
-                  <FiMapPin /><p>
+                    <FiMapPin />
+                    <p>
                       39/74 KNK Road, Karungalpalayam,
                       <br /> Erode -638 003, Tamilnadu, India.
                     </p>
                   </address>
                 </div>
                 <div className="cont-footer1">
-                <FiPhone /><a href="tel:+914242222822">+91 - 424 - 2222822</a>
+                  <FiPhone />
+                  <a href="tel:+914242222822">+91 - 424 - 2222822</a>
                 </div>
                 <div className="cont-footer1">
-                <FiMail /><a href="mailto:sibisteels@gmail.com">sibisteels@gmail.com</a>
+                  <FiMail />
+                  <a href="mailto:sibisteels@gmail.com">sibisteels@gmail.com</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <hr />
-        <div className="col-md-12 col-sm-12 col-xs-12">
-          <div className="foot-copy">
-            &#169; Copyright 2021 sibi steel. Allrights reserved
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div className="foot-copy">
+                &#169; Copyright 2022 sibi steel. Allrights reserved
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div className="foot-Devlope">
+                <p>
+                  Devloped by{" "}
+                  <a href={"https://www.byzerotechnologies.com/"}>
+                    Byzero Technologies
+                  </a>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

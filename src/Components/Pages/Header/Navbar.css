@@ -101,9 +101,23 @@ a.nav-link.active {
   }
 }
 @media only screen and (max-width :768px){
-  .navbar-nav{
+  nav.nav.navbar-nav {
     display: none;
-  }
+}
+.head-sec2 {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+  .top-header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
   .con-de1 div {
     margin-left: 10px;
     display: flex;

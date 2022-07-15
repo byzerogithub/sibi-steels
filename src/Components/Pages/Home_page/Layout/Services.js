@@ -1,6 +1,5 @@
 import React from 'react';
-import './Services.css'
-import Expimg from "../img/yea-ex.png"
+// import '../src/Components/Pages/Services.css'
 import CountUp  from 'react-countup'
 
 

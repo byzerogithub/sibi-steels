@@ -1,19 +1,21 @@
 import React, { useRef, useState } from "react";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCreative } from "swiper";
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-import "./Slider2.css";
-import Steel from "../img/Steelrole.png";
-import Pipefitting from "../img/pipefitting.png";
-import Industrial from "../img/industrialfitting.png"
-import Fastners from "../img/fastners.png"
-import Flanges from "../img/flanges.png"
-import Weldingrods from "../img/weldingrod.png"
-import Abrasive from "../img/Abrasivewheels.png"
-import manholecover from "../img/manholecover.png"
+
+
+// import "..src/Components/Pages/Home_page/Slider2.css";
+import Pipefitting from "../../../../img/pipefitting.png";
+import Industrial from "../../../../img/industrialfitting.png"
+import Fastners from "../../../../img/fastners.png"
+import Flanges from "../../../../img/flanges.png"
+import Weldingrods from "../../../../img/weldingrod.png"
+import Abrasive from "../../../../img/Abrasivewheels.png"
+import manholecover from "../../../../img/manholecover.png"
 
 
 

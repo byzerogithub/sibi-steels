@@ -12,19 +12,7 @@
     color: #241d17;
     font-weight: 600;
 }
-.banner {
-    padding: 50px;
-    color: #fff;
-    background: url("../img/banner.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: right;
-}
-.banner-inn h2 {
-    color: #000;
-    font-size: 38px;
-    font-weight: 700;
-}
+
 .product-body-sec img {
     position: absolute;
     width: 20%;
@@ -41,7 +29,7 @@
 }
 .products-section {
     padding: 50px 0px 40px;
-    background-image: url(../img/our-pro.png);
+    background-image: url(../../../img/our-pro.png);
     background-size: cover;
     background-repeat: no-repeat;
 }

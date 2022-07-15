@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../img/logo.png";
+import Logo from "../../../img/logo.png";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import { FiPhone, FiMail } from "react-icons/fi";

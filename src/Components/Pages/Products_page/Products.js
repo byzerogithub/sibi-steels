@@ -1,28 +1,33 @@
 import React from "react";
-import Footer from "./Footer";
-import "./Product.css";
 import { NavLink } from "react-router-dom";
-import ImageZoom from "react-medium-image-zoom";
-import Productzoom from "./Productzoom";
-import Steel from "../img/ss-polishpipes.png";
-import Handrailings from "../img/ss-rod.png";
-import Fittings from "../img/ss-angle (1).png";
-import Tube from "../img/ss-sheets.png";
-import Bolts from "../img/bolt-nut.png";
-import Sssteel from "../img/sssteel.png";
-import Sstube from "../img/sstube.png";
-import Sshand from "../img/sshandrails.png";
-import Ssfitting from "../img/sspipefitting.png";
-import Ssbolts from "../img/ssboltsnuts.png";
-import Ssangle from "../img/ssangles.png";
-import Abrasivewheel from "../img/Abrasivewheels.png";
-import Fasteners from "../img/fastners.png";
-import Flanges from "../img/flanges.png";
-import Industrialfitting from "../img/industrialfitting.png";
-import Manholecover from "../img/manholecover.png";
-import Pipefitting from "../img/pipefitting.png";
-import Weldingrod from "../img/weldingrod.png";
-import Flats from "../img/ss-flats.png";
+
+// style sheet
+import "./Product.css";
+
+// imgae zoom
+// import ImageZoom from "react-medium-image-zoom";
+// import Productzoom from "../../Productzoom";
+
+// layout images
+import Steel from "../../../img/ss-polishpipes.png";
+import Handrailings from "../../../img/ss-rod.png";
+import Fittings from "../../../img/ss-angle (1).png";
+import Tube from "../../../img/ss-sheets.png";
+import Bolts from "../../../img/bolt-nut.png";
+import Sssteel from "../../../img/sssteel.png";
+import Sstube from "../../../img/sstube.png";
+import Sshand from "../../../img/sshandrails.png";
+import Ssfitting from "../../../img/sspipefitting.png";
+import Ssbolts from "../../../img/ssboltsnuts.png";
+// import Ssangle from "../img/ssangles.png";
+import Abrasivewheel from "../../../img/Abrasivewheels.png";
+import Fasteners from "../../../img/fastners.png";
+import Flanges from "../../../img/flanges.png";
+import Industrialfitting from "../../../img/industrialfitting.png";
+import Manholecover from "../../../img/manholecover.png";
+import Pipefitting from "../../../img/pipefitting.png";
+import Weldingrod from "../../../img/weldingrod.png";
+import Flats from "../../../img/ss-flats.png";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -262,9 +267,7 @@ export default function Products() {
           </div>
         </div>
       </div>
-      <div>
-        <Footer />
-      </div>
+      
     </>
   );
 }
