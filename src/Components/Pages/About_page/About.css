@@ -2,10 +2,12 @@
     padding: 50px 0px 30px;
     position: relative;
 }
-.shadow-box p, .shadow-box4 p, .shadow-box3 p, .shadow-box2 p{
+.shadow-box p, .shadow-box4 p, .shadow-box3 p, .shadow-box2 p {
     text-align: justify;
-    line-height: 30px;
+    line-height: 24px;
     font-size: 14px;
+    padding: 10px;
+    margin-bottom: 0;
 }
 
 /* .abut-section-bg1 {
@@ -50,7 +52,7 @@
     width: 3px solid #000;
     height: 4px solid #000;
     border-top: 68px solid transparent;
-    border-left: 72px solid #5a5e61;
+    border-left: 72px solid #c4cdd3;
     border-bottom: 65px solid transparent;
     position: absolute;
     top: 70px;
@@ -61,7 +63,7 @@
     width: 3px solid #000;
     height: 4px solid #000;
     border-top: 50px solid transparent;
-    border-left: 73px solid #5a5e61;
+    border-left: 73px solid #c4cdd3;
     border-bottom: 50px solid transparent;
     position: absolute;
     top: 15px;
@@ -72,10 +74,10 @@
     width: 3px solid #000;
     height: 4px solid #000;
     border-top: 68px solid transparent;
-    border-right: 72px solid #5a5e61;
+    border-right: 72px solid #c4cdd3;
     border-bottom: 65px solid transparent;
     position: absolute;
-    top: 34px;
+    top: 13px;
     left: -72px;
 }
 .shadow-box4 img {

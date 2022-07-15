@@ -12,17 +12,7 @@
     margin-bottom: 20px;
     border-bottom: 1px solid #ddd;
 }
-.banner {
-    padding: 10px;
-    color: #fff;
-    background: #AF0300;
-    text-align: center;
-}
-  .banner-inn h2 {
-    color: #fff;
-    font-size: 38px;
-    font-weight: 700;
-  }
+
 .btn-primary {
     color: #fff;
     float: right;
