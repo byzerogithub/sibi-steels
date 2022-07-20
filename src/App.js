@@ -22,7 +22,7 @@ function App() {
           </div>
         </div>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/sibi-steels" component={Home} />
           <Route exatc path="/about" component={About} />
           <Route exatc path="/products" component={Products} />
           <Route exatc path="/contact" component={Contact} />
