@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.25cd5c12.css",
-    "main.js": "/static/js/main.8f431580.js",
+    "main.js": "/static/js/main.ffb75ccc.js",
     "static/media/slider6.png": "/static/media/slider6.4472331ff803b3cd5e23.png",
     "static/media/weldingrod-bg.png": "/static/media/weldingrod-bg.61203b18d15ee82741fe.png",
     "static/media/abtsteel-bg.png": "/static/media/abtsteel-bg.d8c4c873d44a402cd85f.png",
@@ -38,10 +38,10 @@
     "static/media/ssboltsnuts.png": "/static/media/ssboltsnuts.2a2bd35b4ba2f9c636ea.png",
     "index.html": "/index.html",
     "main.25cd5c12.css.map": "/static/css/main.25cd5c12.css.map",
-    "main.8f431580.js.map": "/static/js/main.8f431580.js.map"
+    "main.ffb75ccc.js.map": "/static/js/main.ffb75ccc.js.map"
   },
   "entrypoints": [
     "static/css/main.25cd5c12.css",
-    "static/js/main.8f431580.js"
+    "static/js/main.ffb75ccc.js"
   ]
 }
