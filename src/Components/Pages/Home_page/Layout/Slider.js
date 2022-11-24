@@ -19,6 +19,7 @@ import { Autoplay, Navigation } from "swiper";
 export default function App() {
   return (
     <>
+    <div className="slider">
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -40,6 +41,7 @@ export default function App() {
        
 
       </Swiper>
+      </div>
     </>
   );
 }

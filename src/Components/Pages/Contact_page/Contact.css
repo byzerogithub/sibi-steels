@@ -1,10 +1,12 @@
 .cont-sec {
     padding: 70px 0 50px 50px;
-    background: linear-gradient(90deg, #fff 52%,silver 50% 100%);
+    background: linear-gradient(90deg, #fff 52%,#b50100 50% 100%);
+    color: #fff;
+    border-bottom: 1px solid #eee;
 }
 .cont-sec a {
     text-decoration: none;
-    color: #3e3d3d;
+    color: #ffffff;
 }
 .cont-seca input {
     border: unset;
@@ -32,7 +34,18 @@
     margin-bottom: 30px;
 }
 .add-1 h5 {
-    color: #A6221D;
+    color: #dfdfdf;
+    font-size: 28px;
+    font-weight: 800;
+    /* background: linear-gradient(90deg, #fff 52%,#ddd 50% 100%); */
+}
+.cont-seca label{
+    color: #000;
+}
+.cont-seca form button{
+    color: #fff;
+    background-color: #b50100;
+    border: unset;
 }
 .cont-secb {
     text-align: center;

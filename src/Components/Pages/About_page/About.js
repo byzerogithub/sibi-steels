@@ -30,7 +30,7 @@ export default function About() {
       </div>
       <div className="about-section">
         <div className="container">
-          <div className="row about-section-paragraph-1">
+          <div className="about-section-paragraph-1">
             <div
               className="col-lg-8 col-md-8 col-sm-12 col-xs-12 shadow-box"
               data-aos="fade-left"
@@ -58,7 +58,7 @@ export default function About() {
               <img src={Round} data-aos="fade-right" data-aos-delay="800" />
             </div>
           </div>
-          <div className="row about-section-paragraph-1">
+          <div className="about-section-paragraph-2">
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 abut-section-bg1">
               <img src={Aboutsteel} data-aos="fade-left" data-aos-delay="600" />
             </div>
@@ -82,7 +82,7 @@ export default function About() {
               <img src={Globevector} />
             </div>
           </div>
-          <div className="row about-section-paragraph-1">
+          <div className="about-section-paragraph-3">
             <div
               className="col-lg-8 col-md-8 col-sm-12 col-xs-12 shadow-box3"
               data-aos="fade-right"
@@ -100,7 +100,7 @@ export default function About() {
               <img src={Handrail} data-aos="fade-right" data-aos-delay="600" />
             </div>
           </div>
-          <div className="row about-section-paragraph-1">
+          <div className="about-section-paragraph-4">
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 abut-section-bg2">
               <img src={Bolt} data-aos="fade-right" data-aos-delay="600" />
             </div>
@@ -130,3 +130,12 @@ export default function About() {
     </>
   );
 }
+
+AOS.init({
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: true, // whether animation should happen only once - while scrolling down
+});

@@ -12,19 +12,19 @@ export default function Services() {
             <div className='col-md-4 col-sm-12 col-xs-12 cout1'>
               <h2>
                 <CountUp start={0} end={35} duration={10} suffix="+"/></h2>
-                <br/>
+                
                 <h5>Years Of <br/>Experience</h5>
             </div>
             <div className='col-md-4 col-sm-12 col-xs-12 cout2'>
             
             <h2><CountUp start={0} duration={10} end={200} suffix="+"/></h2>
-            <br/>
+            
             <h5>Ton Of <br/>Retail Stock</h5>
             </div>
             <div className='col-md-4 col-sm-12 col-xs-12 cout3'>
             
             <h2><CountUp start={0} duration={10} end={2000} suffix="+"/></h2>
-            <br/>
+            
             <h5>Variants</h5>
             </div>
           </div>

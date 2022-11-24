@@ -40,7 +40,9 @@ export default function Products() {
     <>
       <div class="banner">
         <div className="banner-inn">
-          <h2>Products</h2>
+          <div className="container">
+            <h2>Products</h2>
+          </div>
         </div>
       </div>
       <div className="products-section">
@@ -187,7 +189,8 @@ export default function Products() {
             <div className="col-md-4 col-sm-6 col-xs-12">
               <div className="card5" data-aos="fade-down" data-aos-delay="1000">
                 <NavLink exact to="/products" className="nav-link">
-                  <img id="prod-img-2"
+                  <img
+                    id="prod-img-2"
                     src={Pipefitting}
                     class="card-img-top"
                     alt="Card image cap"
@@ -198,7 +201,8 @@ export default function Products() {
             <div className="col-md-4 col-sm-6 col-xs-12">
               <div className="card3" data-aos="fade-down" data-aos-delay="400">
                 <NavLink exact to="/products" className="nav-link">
-                  <img id="prod-img-2"
+                  <img
+                    id="prod-img-2"
                     src={Industrialfitting}
                     class="card-img-top"
                     alt="Card image cap"
@@ -211,7 +215,8 @@ export default function Products() {
               <div className="card4" data-aos="fade-down" data-aos-delay="700">
                 <NavLink exact to="/products" className="nav-link">
                   {" "}
-                  <img id="prod-img-2"
+                  <img
+                    id="prod-img-2"
                     src={Fasteners}
                     class="card-img-top"
                     alt="Card image cap"
@@ -223,7 +228,8 @@ export default function Products() {
             <div className="col-md-4 col-sm-6 col-xs-12">
               <div className="card5" data-aos="fade-down" data-aos-delay="1000">
                 <NavLink exact to="/products" className="nav-link">
-                  <img id="prod-img-2"
+                  <img
+                    id="prod-img-2"
                     src={Flanges}
                     class="card-img-top"
                     alt="Card image cap"
@@ -234,7 +240,8 @@ export default function Products() {
             <div className="col-md-4 col-sm-6 col-xs-12">
               <div className="card3" data-aos="fade-down" data-aos-delay="400">
                 <NavLink exact to="/products" className="nav-link">
-                  <img id="prod-img-2"
+                  <img
+                    id="prod-img-2"
                     src={Weldingrod}
                     class="card-img-top"
                     alt="Card image cap"
@@ -245,7 +252,8 @@ export default function Products() {
             <div className="col-md-4 col-sm-6 col-xs-12">
               <div className="card3" data-aos="fade-down" data-aos-delay="400">
                 <NavLink exact to="/products" className="nav-link">
-                  <img id="prod-img-2"
+                  <img
+                    id="prod-img-2"
                     src={Abrasivewheel}
                     class="card-img-top"
                     alt="Card image cap"
@@ -256,7 +264,8 @@ export default function Products() {
             <div className="col-md-4 col-sm-6 col-xs-12">
               <div className="card3" data-aos="fade-down" data-aos-delay="400">
                 <NavLink exact to="/products" className="nav-link">
-                  <img id="prod-img-2"
+                  <img
+                    id="prod-img-2"
                     src={Manholecover}
                     class="card-img-top"
                     alt="Card image cap"
@@ -267,7 +276,6 @@ export default function Products() {
           </div>
         </div>
       </div>
-      
     </>
   );
 }
