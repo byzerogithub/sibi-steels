@@ -159,7 +159,7 @@ nav {
 }
 @media only screen and (max-width: 425px) {
   .menu-close-button {
-    padding: 0rem 7rem !important;
+    padding: 0rem 3rem !important;
   }
   .silder2 .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
     font-size: 20px!important;
@@ -173,6 +173,22 @@ nav {
   .silder .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
     font-size: 20px !important;
   }
+  .cont-sec {
+    padding: 70px 0 50px 50px;
+    background: unset!important;
+    color: #000;
+    border-bottom: 1px solid #eee;
+}
+.cont-sec address{
+  color: #000!important;
+}
+.cont-sec a {
+  color: #525252 !important;
+  font-size: 13px;
+}
+.add-1 h5{
+  color: #bb0200!important;
+}
 }
 @media only screen and (max-width: 375px) {
   .menu-open-button {
@@ -182,7 +198,7 @@ nav {
     position: fixed;
     top: 0px;
     width: 80%;
-    right: 40px;
+    right: 0px;
     height: 100vh;
     transition: 0.6s;
     background: rgba(42, 42, 42, 0.9803921569);
