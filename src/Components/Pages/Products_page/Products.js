@@ -52,13 +52,14 @@ export default function Products() {
             <div className="col-md-4 col-sm-6 col-xs-12">
               <div className="card0" data-aos="fade-down" data-aos-delay="300">
                 <NavLink exact to="/products" className="nav-link">
-                  <img src={Steel} class="card-img-top" alt="Card image cap" />
+                  <img src={Steel} class="card-img-top" title="ss-polishpipes" alt="ss-polishpipes" />
                 </NavLink>
                 <div className="product-body-sec">
                   <img
                     src={Sssteel}
                     class="card-img-top"
-                    alt="Card image cap"
+                    title="ss steels"
+                    alt="Ss Steels"
                   />
                 </div>
                 <h5 className="card-title">
@@ -73,10 +74,12 @@ export default function Products() {
               <div className="card1" data-aos="fade-down" data-aos-delay="600">
                 <NavLink exact to="/products" className="nav-link">
                   {" "}
-                  <img src={Tube} class="card-img-top" alt="Card image cap" />
+                  <img src={Tube} class="card-img-top" title="ss tube"
+                    alt="Ss tube" />
                 </NavLink>
                 <div className="product-body-sec">
-                  <img src={Sstube} class="card-img-top" alt="Card image cap" />
+                  <img src={Sstube} class="card-img-top" title="ss tube"
+                    alt="Ss tube" />
                 </div>
 
                 <h5 className="card-title">
@@ -93,11 +96,13 @@ export default function Products() {
                   <img
                     src={Handrailings}
                     class="card-img-top"
-                    alt="Card image cap"
+                    title="ss Handrailings"
+                    alt="Ss Handrailings"
                   />{" "}
                 </NavLink>
                 <div className="product-body-sec">
-                  <img src={Sshand} class="card-img-top" alt="Card image cap" />
+                  <img src={Sshand} class="card-img-top" title="ss hand"
+                    alt="Ss hand" />
                 </div>
                 <h5 className="card-title">
                   <NavLink exact to="/products" className="nav-link">
@@ -114,14 +119,16 @@ export default function Products() {
                   <img
                     src={Fittings}
                     class="card-img-top"
-                    alt="Card image cap"
+                    title="ss Fittings"
+                    alt="Ss Fittings"
                   />
                 </NavLink>
                 <div className="product-body-sec">
                   <img
                     src={Ssfitting}
                     class="card-img-top"
-                    alt="Card image cap"
+                    title="Ss fitting"
+                    alt="Ss fitting"
                   />
                 </div>
                 <h5 className="card-title">
@@ -139,14 +146,16 @@ export default function Products() {
                   <img
                     src={Flats}
                     class="card-img-top"
-                    alt="Card image cap"
+                    title="ss Flats"
+                    alt="Ss Flats"
                   />{" "}
                 </NavLink>
                 <div className="product-body-sec">
                   <img
                     src={Ssbolts}
                     class="card-img-top"
-                    alt="Card image cap"
+                    title="Ssbolts"
+                    alt="Ssbolts"
                   />
                 </div>
                 <h5 className="card-title">
@@ -163,14 +172,16 @@ export default function Products() {
                   <img
                     src={Bolts}
                     class="card-img-top"
-                    alt="Card image cap"
+                    title="ss Bolts"
+                    alt="Ss Bolts"
                   />{" "}
                 </NavLink>
                 <div className="product-body-sec">
                   <img
                     src={Ssbolts}
                     class="card-img-top"
-                    alt="Card image cap"
+                    title="Ss bolts"
+                    alt="Ss bolts"
                   />
                 </div>
                 <h5 className="card-title">
@@ -193,7 +204,8 @@ export default function Products() {
                     id="prod-img-2"
                     src={Pipefitting}
                     class="card-img-top"
-                    alt="Card image cap"
+                    title="Pipe fitting"
+                    alt="Pipe fitting"
                   />
                 </NavLink>
               </div>
@@ -205,7 +217,8 @@ export default function Products() {
                     id="prod-img-2"
                     src={Industrialfitting}
                     class="card-img-top"
-                    alt="Card image cap"
+                    title="Industrial fitting"
+                    alt="Industrial fitting"
                   />
                 </NavLink>
               </div>
@@ -219,7 +232,8 @@ export default function Products() {
                     id="prod-img-2"
                     src={Fasteners}
                     class="card-img-top"
-                    alt="Card image cap"
+                    title="Fasteners"
+                    alt="Fasteners"
                   />{" "}
                 </NavLink>
               </div>
@@ -232,7 +246,8 @@ export default function Products() {
                     id="prod-img-2"
                     src={Flanges}
                     class="card-img-top"
-                    alt="Card image cap"
+                    title="Flanges"
+                    alt="Flanges"
                   />
                 </NavLink>
               </div>
@@ -244,7 +259,8 @@ export default function Products() {
                     id="prod-img-2"
                     src={Weldingrod}
                     class="card-img-top"
-                    alt="Card image cap"
+                    title="Weldingrod"
+                    alt="Weldingrod"
                   />
                 </NavLink>
               </div>
@@ -256,7 +272,8 @@ export default function Products() {
                     id="prod-img-2"
                     src={Abrasivewheel}
                     class="card-img-top"
-                    alt="Card image cap"
+                    title="Abrasivewheel"
+                    alt="Abrasivewheel"
                   />
                 </NavLink>
               </div>
@@ -268,7 +285,8 @@ export default function Products() {
                     id="prod-img-2"
                     src={Manholecover}
                     class="card-img-top"
-                    alt="Card image cap"
+                    title="Manholecover"
+                    alt="Manholecover"
                   />
                 </NavLink>
               </div>

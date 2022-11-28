@@ -1,68 +1,75 @@
-.prod-zoom{
-    padding: 50px 0px 30px;
+.prod-zoom {
+  padding: 50px 0px 30px;
 }
 .row.product-zoom {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .product-zoom h5 {
-    color: #241d17;
-    font-weight: 600;
+  color: #241d17;
+  font-weight: 600;
 }
 
 .product-body-sec img {
-    position: absolute;
-    width: 20%;
-    opacity: 0.9;
-    top: 262px;
-    left: -25px;
+  position: absolute;
+  width: 20%;
+  opacity: 0.9;
+  top: 262px;
+  left: -25px;
 }
-.product-body-sec1 img{
-    position: absolute;
-    width: 20%;
-    opacity: 0.9;
-    top: 235px;
-    left: -25px;
+.product-body-sec1 img {
+  position: absolute;
+  width: 20%;
+  opacity: 0.9;
+  top: 235px;
+  left: -25px;
 }
 .products-section {
-    padding: 50px 0px 40px;
-    background-image: url(../../../img/our-pro.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+  padding: 50px 0px 40px;
+  background-image: url(../../../img/our-pro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #prod-img-2 {
-    width: 350px;
+  width: 350px;
 }
 .product-section-2 {
-    padding: 50px 0px;
+  padding: 50px 0px;
 }
-@media only screen and (max-width: 1366px){
-    .product-body-sec img {
-        position: absolute;
-        width: 20%;
-        opacity: 0.9;
-        top: 240px;
-        left: 0px;
-    }
-    #prod-img-2 {
-        width: 350px;
-    }
+@media only screen and (max-width: 1366px) {
+  .product-body-sec img {
+    position: absolute;
+    width: 20%;
+    opacity: 0.9;
+    top: 240px;
+    left: 0px;
+  }
+  #prod-img-2 {
+    width: 350px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
-    #prod-img-2 {
-        width: 300px;
-    }
+  #prod-img-2 {
+    width: 300px;
+  }
+  .product-body-sec img {
+    position: absolute;
+    width: 20%;
+    opacity: 0.9;
+    top: 188px;
+    left: 0px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    #prod-img-2 {
-        width: 180px;
-    }
-    .products-section a.nav-link{
-        color: #B50100;
-    }
+  #prod-img-2 {
+    width: 180px;
+  }
+  .products-section a.nav-link {
+    color: #b50100;
+  }
 }

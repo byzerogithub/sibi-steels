@@ -1,7 +1,30 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "./Contact.css";
-import Footer from "../Footer_page/Footer";
 export default function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_ocl5u4s",
+        "template_xjdinc6",
+        form.current,
+        "xahhGGlABhjCzqyZz"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message sent");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+ 
   return (
     <>
       <div class="banner">
@@ -17,52 +40,17 @@ export default function Contact() {
               <div class="col align-self-center">
                 <h1 class="text-center">Get In Touch</h1>
                 {/* <!-- contact form --> */}
-                <form>
-                  {/* <!-- name --> */}
-                  <div class="form-group">
-                    <label for="name">Name</label>
-                    <input
-                      type="name"
-                      name="name"
-                      class="form-control"
-                      id="name"
-                    />
-                  </div>
+                <form ref={form} onSubmit={sendEmail}>
+                  <label>Name</label>
+                  <input type="text" name="user_name" required />
+                  <label>Mobile No</label>
+                  <input type="number" name="user_number" required />
+                  <label>Email</label>
+                  <input type="email" name="user_email" required />
+                  <label>Message</label>
+                  <textarea name="message" />
 
-                  {/* <!-- email --> */}
-                  <div class="form-group">
-                    <label for="email">Email address</label>
-                    <input
-                      type="email"
-                      name="email"
-                      class="form-control"
-                      id="email"
-                    />
-                  </div>
-
-                  {/* <!-- subject --> */}
-                  <div class="form-group">
-                    <label for="subject">Mobile No</label>
-                    <input
-                      type="tel"
-                      name="subject"
-                      class="form-control"
-                      id="subject"
-                    />
-                  </div>
-
-                  <div class="form-group">
-                    <label for="email_body">Message</label>
-                    <textarea
-                      class="form-control"
-                      id="email_body"
-                      rows="5"
-                    ></textarea>
-                  </div>
-
-                  <button type="submit" class="btn btn-primary">
-                    Submit
-                  </button>
+                  <input type="submit" value="Send" />
                 </form>
               </div>
             </div>
@@ -76,6 +64,7 @@ export default function Contact() {
                     <br /> Salem -636009, Tamilnadu, India.
                   </p>
                 </address>
+                
                 <a href="tel:+914272353822">+91 - 427 - 2353822</a> <br />
                 <a href="mailto:sibisteels@gmail.com">sibisteels@gmail.com</a>
               </div>
@@ -87,15 +76,15 @@ export default function Contact() {
                     <br /> Erode -638 003, Tamilnadu, India.
                   </p>
                 </address>
-
-                <a href="tel:+914242222822">+91 - 424 - 2222822</a>
+               
+                <a href={"tel:+914242222822"}>+91 - 424 - 2222822</a>
                 <br />
-                <a href="mailto:sibisteels@gmail.com">sibisteels@gmail.com</a>
+                <a href={"mailto:sibisteels@gmail.com"}>sibisteels@gmail.com</a>
               </div>
             </div>
           </div>
         </div>
-      </div> 
+      </div>
     </>
   );
 }

@@ -18,7 +18,7 @@ export default function Footer() {
             <div className="col-md-4 col-sm-6 col-xs-12 foot-sec1">
               <div className="foot-log">
                 <NavLink exact to="/">
-                  <img src={footlogo} />
+                  <img src={footlogo} title="Sibi Steels"/>
                 </NavLink>
               </div>
             </div>
@@ -78,7 +78,7 @@ export default function Footer() {
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="foot-copy">
-                &#169; Copyright 2022 sibi steel. Allrights reserved
+                &#169; Copyright 2022 sibi steels. Allrights reserved
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">

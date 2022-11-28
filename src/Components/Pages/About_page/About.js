@@ -55,12 +55,12 @@ export default function About() {
             </div>
 
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 abut-section-bg1">
-              <img src={Round} data-aos="fade-right" data-aos-delay="800" />
+              <img src={Round} title="Round bar sibi steels" alt="Round bar sibi steels" data-aos="fade-right" data-aos-delay="800" />
             </div>
           </div>
           <div className="about-section-paragraph-2">
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 abut-section-bg1">
-              <img src={Aboutsteel} data-aos="fade-left" data-aos-delay="600" />
+              <img src={Aboutsteel} title="Sibi Steels" alt="sibi steels" data-aos="fade-left" data-aos-delay="600" />
             </div>
             <div
               className="col-lg-8 col-md-8 col-sm-12 col-xs-12 shadow-box2"
@@ -97,12 +97,12 @@ export default function About() {
               </p>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 abut-section-bg2">
-              <img src={Handrail} data-aos="fade-right" data-aos-delay="600" />
+              <img src={Handrail} title="Handrail sibi steels" alt="Handrail sibi steels" data-aos="fade-right" data-aos-delay="600" />
             </div>
           </div>
           <div className="about-section-paragraph-4">
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 abut-section-bg2">
-              <img src={Bolt} data-aos="fade-right" data-aos-delay="600" />
+              <img src={Bolt} title="Bolt-sibi steels" alt="bolt sibi steels" data-aos="fade-right" data-aos-delay="600" />
             </div>
             <div
               className="col-lg-8 col-md-8 col-sm-12 col-xs-12 shadow-box4"

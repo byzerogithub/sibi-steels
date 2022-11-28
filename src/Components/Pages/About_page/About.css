@@ -1,6 +1,7 @@
 .about-section {
     padding: 50px 0px 30px;
     position: relative;
+    overflow: hidden;
 }
 .shadow-box p, .shadow-box4 p, .shadow-box3 p, .shadow-box2 p {
     text-align: justify;
@@ -10,12 +11,7 @@
     margin-bottom: 0;
 }
 
-/* .abut-section-bg1 {
-    background-image: url(../img/weldingrod-bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-} */
+
 .abut-section-bg1, .abut-section-bg2{
     text-align: center;
 }
@@ -92,6 +88,7 @@
     position: relative;
     color: #fff;
     background: #b70200ed;
+    height: fit-content!important;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0.4px 0.5px 3.6px rgb(0 0 0 / 5%), 1.1px 1.3px 10px rgb(0 0 0 / 8%), 2.7px 3px 24.1px rgb(0 0 0 / 10%), 9px 10px 80px rgb(0 0 0 / 15%);

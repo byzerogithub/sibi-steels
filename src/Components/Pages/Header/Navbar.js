@@ -13,7 +13,7 @@ export default function Navbar() {
           <div className="row top-header">
             <div className="col-md-4 col-sm-12 col-xs-12 head-logo">
               <NavLink exact to="/">
-                <img src={Logo} />
+                <img src={Logo} title="Sibi Steels" alt="sibi steels"/>
               </NavLink>
             </div>
             <div className="col-md-8 col-sm-12 col-xs-12 head-sec2">

@@ -82,6 +82,11 @@ address {
     gap: 7px;
     line-height: 37px;
 }
+@media only screen and (max-width: 1024px){
+    .foot-log img {
+        width: 100%;
+    }
+}
 @media only screen and (max-width: 768px){
     .footer {
         padding: 30px 0 20px;

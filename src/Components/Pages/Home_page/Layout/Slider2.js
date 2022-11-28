@@ -46,25 +46,25 @@ export default function App() {
                 
               >
                 <SwiperSlide>
-                  <img src={Pipefitting} />
+                  <img src={Pipefitting} title="Pipefitting" alt="Pipefitting"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src={Industrial} />
+                  <img src={Industrial} title="Industrial Fitting" alt="Industrial Fitting"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src={Fastners} />
+                  <img src={Fastners} title="Fastners" alt="Fastners"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src={Flanges} />
+                  <img src={Flanges} title="Flanges" alt="Flanges"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src={Weldingrods} />
+                  <img src={Weldingrods} title="Weldingrods" alt="Weldingrods"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src={Abrasive} />
+                  <img src={Abrasive} title="Abrasive" alt="Abrasive"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src={manholecover} />
+                  <img src={manholecover} title="manholecover" alt="manholecover"/>
                 </SwiperSlide>
               </Swiper>
               <div className="ourpro-img">

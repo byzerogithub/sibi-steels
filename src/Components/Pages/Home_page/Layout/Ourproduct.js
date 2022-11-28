@@ -14,11 +14,6 @@ import SSAngles from "../../../../img/ss-angle (1).png";
 import Ssflats from "../../../../img/ss-flats.png";
 import Ssboltsnuts from "../../../../img/bolt-nut.png";
 
-
-
-
-
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init({
@@ -52,19 +47,21 @@ export default function Ourproduct() {
                     <img
                       src={polishpipes}
                       class="card-img-top"
-                      alt="Card image cap"
+                      title="polishpipes"
+                      alt="polishpipes sibi steels"
                     />
                   </NavLink>
                   <div className="card-body">
                     <img
                       src={Sssteel}
                       class="card-img-top"
-                      alt="Card image cap"
+                      title="Sssteel"
+                      alt="Sssteel sibi steels"
                     />
                   </div>
                   <h5 className="card-title">
                     <NavLink exact to="/products" className="nav-link">
-                    SS Polishpipes
+                      SS Polishpipes
                     </NavLink>
                   </h5>
                 </div>
@@ -78,19 +75,25 @@ export default function Ourproduct() {
                 >
                   <NavLink exact to="/products" className="nav-link">
                     {" "}
-                    <img src={SheetsCoils} class="card-img-top" alt="Card image cap" />
+                    <img
+                      src={SheetsCoils}
+                      class="card-img-top"
+                      title="SheetsCoils"
+                      alt="SheetsCoils sibi steels"
+                    />
                   </NavLink>
                   <div className="card-body">
                     <img
                       src={Sstube}
                       class="card-img-top"
-                      alt="Card image cap"
+                      title="Sstube"
+                      alt="Sstube sibi steels"
                     />
                   </div>
 
                   <h5 className="card-title">
                     <NavLink exact to="/products" className="nav-link">
-                    SS Sheets & Coils
+                      SS Sheets & Coils
                     </NavLink>
                   </h5>
                 </div>
@@ -106,19 +109,21 @@ export default function Ourproduct() {
                     <img
                       src={SSRods}
                       class="card-img-top"
-                      alt="Card image cap"
+                      title="SSRods"
+                      alt="SSRods sibi steels"
                     />{" "}
                   </NavLink>
                   <div className="card-body">
                     <img
                       src={Sshand}
                       class="card-img-top"
-                      alt="Card image cap"
+                      title="Sshand"
+                      alt="Sshand sibi steels"
                     />
                   </div>
                   <h5 className="card-title">
                     <NavLink exact to="/products" className="nav-link">
-                    SS Rods{" "}
+                      SS Rods{" "}
                     </NavLink>
                   </h5>
                 </div>
@@ -135,19 +140,21 @@ export default function Ourproduct() {
                     <img
                       src={SSAngles}
                       class="card-img-top"
-                      alt="Card image cap"
+                      title="SSAngles"
+                      alt="SS Angles sibi steels"
                     />
                   </NavLink>
                   <div className="card-body1">
                     <img
                       src={Ssfitting}
+                      title="Ssfitting"
                       class="card-img-top"
-                      alt="Card image cap"
+                      alt="Ssfitting sibi steels"
                     />
                   </div>
                   <h5 className="card-title">
                     <NavLink exact to="/products" className="nav-link">
-                    SS Angles
+                      SS Angles
                     </NavLink>
                   </h5>
                 </div>
@@ -164,19 +171,21 @@ export default function Ourproduct() {
                     <img
                       src={Ssflats}
                       class="card-img-top"
-                      alt="Card image cap"
+                      title="Ssflats"
+                      alt="Ssflats sibi steels"
                     />{" "}
                   </NavLink>
                   <div className="card-body1">
                     <img
                       src={Ssbolts}
                       class="card-img-top"
-                      alt="Card image cap"
+                      title="Ssbolts"
+                      alt="Ssbolts sibi steels"
                     />
                   </div>
                   <h5 className="card-title">
                     <NavLink exact to="/products" className="nav-link">
-                    SS Flats
+                      SS Flats
                     </NavLink>
                   </h5>
                 </div>
@@ -192,19 +201,21 @@ export default function Ourproduct() {
                     <img
                       src={Ssboltsnuts}
                       class="card-img-top"
-                      alt="Card image cap"
+                      title="Ssboltsnuts"
+                      alt="Ssboltsnuts sibi steels"
                     />
                   </NavLink>
                   <div className="card-body1">
                     <img
                       src={Ssangle}
                       class="card-img-top"
-                      alt="Card image cap"
+                      title="Ssangle"
+                      alt="Ssangle sibi steels"
                     />
                   </div>
                   <h5 className="card-title">
                     <NavLink exact to="/products" className="nav-link">
-                    SS Bolts and Nuts
+                      SS Bolts and Nuts
                     </NavLink>
                   </h5>
                 </div>
