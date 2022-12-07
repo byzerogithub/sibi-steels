@@ -24,6 +24,7 @@ export default function Contact() {
         }
       );
   };
+  
  
   return (
     <>
@@ -40,9 +41,9 @@ export default function Contact() {
               <div class="col align-self-center">
                 <h1 class="text-center">Get In Touch</h1>
                 {/* <!-- contact form --> */}
-                <form ref={form} onSubmit={sendEmail}>
+                <form ref={form} onSubmit={this.sendEmail} >
                   <label>Name</label>
-                  <input type="text" name="user_name" required />
+                  <input type="text" name="user_name" required/>
                   <label>Mobile No</label>
                   <input type="number" name="user_number" required />
                   <label>Email</label>
@@ -52,6 +53,8 @@ export default function Contact() {
 
                   <input type="submit" value="Send" />
                 </form>
+                
+                <h1>{this.state.submit}</h1>
               </div>
             </div>
             <div className="col-md-6 col-sm-12 ol-xs-12 cont-secb">
