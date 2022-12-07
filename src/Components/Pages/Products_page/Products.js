@@ -197,11 +197,11 @@ export default function Products() {
       <div className="product-section-2">
         <div className="container">
           <div className="row our-pro-sec2">
-            <div className="col-md-4 col-sm-6 col-xs-12">
-              <div className="card5" data-aos="fade-down" data-aos-delay="1000">
+            <div className="col-md-4 col-sm-6 col-xs-12 prod-img-1-1">
+              <div className="card-1-1" data-aos="fade-down" data-aos-delay="1000">
                 <NavLink exact to="/products" className="nav-link">
                   <img
-                    id="prod-img-2"
+                    id="prod-img-2-1"
                     src={Pipefitting}
                     class="card-img-top"
                     title="Pipe fitting"
@@ -211,10 +211,10 @@ export default function Products() {
               </div>
             </div>
             <div className="col-md-4 col-sm-6 col-xs-12">
-              <div className="card3" data-aos="fade-down" data-aos-delay="400">
+              <div className="card-1-1" data-aos="fade-down" data-aos-delay="400">
                 <NavLink exact to="/products" className="nav-link">
                   <img
-                    id="prod-img-2"
+                    id="prod-img-2-1"
                     src={Industrialfitting}
                     class="card-img-top"
                     title="Industrial fitting"
@@ -225,11 +225,11 @@ export default function Products() {
             </div>
 
             <div className="col-md-4 col-sm-6 col-xs-12">
-              <div className="card4" data-aos="fade-down" data-aos-delay="700">
+              <div className="card-1-1" data-aos="fade-down" data-aos-delay="700">
                 <NavLink exact to="/products" className="nav-link">
                   {" "}
                   <img
-                    id="prod-img-2"
+                    id="prod-img-2-1"
                     src={Fasteners}
                     class="card-img-top"
                     title="Fasteners"
@@ -240,10 +240,10 @@ export default function Products() {
             </div>
 
             <div className="col-md-4 col-sm-6 col-xs-12">
-              <div className="card5" data-aos="fade-down" data-aos-delay="1000">
+              <div className="card-1-1" data-aos="fade-down" data-aos-delay="1000">
                 <NavLink exact to="/products" className="nav-link">
                   <img
-                    id="prod-img-2"
+                    id="prod-img-2-1"
                     src={Flanges}
                     class="card-img-top"
                     title="Flanges"
@@ -253,10 +253,10 @@ export default function Products() {
               </div>
             </div>
             <div className="col-md-4 col-sm-6 col-xs-12">
-              <div className="card3" data-aos="fade-down" data-aos-delay="400">
+              <div className="card-1-1" data-aos="fade-down" data-aos-delay="400">
                 <NavLink exact to="/products" className="nav-link">
                   <img
-                    id="prod-img-2"
+                    id="prod-img-2-1"
                     src={Weldingrod}
                     class="card-img-top"
                     title="Weldingrod"
@@ -266,10 +266,10 @@ export default function Products() {
               </div>
             </div>
             <div className="col-md-4 col-sm-6 col-xs-12">
-              <div className="card3" data-aos="fade-down" data-aos-delay="400">
+              <div className="card-1-1" data-aos="fade-down" data-aos-delay="400">
                 <NavLink exact to="/products" className="nav-link">
                   <img
-                    id="prod-img-2"
+                    id="prod-img-2-1"
                     src={Abrasivewheel}
                     class="card-img-top"
                     title="Abrasivewheel"
@@ -279,10 +279,10 @@ export default function Products() {
               </div>
             </div>
             <div className="col-md-4 col-sm-6 col-xs-12">
-              <div className="card3" data-aos="fade-down" data-aos-delay="400">
+              <div className="card-1-1" data-aos="fade-down" data-aos-delay="400">
                 <NavLink exact to="/products" className="nav-link">
                   <img
-                    id="prod-img-2"
+                    id="prod-img-2-1"
                     src={Manholecover}
                     class="card-img-top"
                     title="Manholecover"

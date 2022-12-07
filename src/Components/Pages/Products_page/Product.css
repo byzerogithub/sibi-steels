@@ -72,4 +72,11 @@
   .products-section a.nav-link {
     color: #b50100;
   }
+  .prod-img-1-1 img{
+    width: 100%;
+  }
+}
+
+#prod-img-2-1 {
+  width: 100%;
 }

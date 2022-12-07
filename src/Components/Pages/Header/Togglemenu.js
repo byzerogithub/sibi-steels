@@ -20,7 +20,7 @@ export default function Togglemenu() {
             <ul className="togle-ul">
                  <li><NavLink exact to="/" className="nav-link">Home</NavLink></li>
                  <li><NavLink exact to="/about" className="nav-link">About us</NavLink></li>
-                 <li><NavLink exact to="/products" className="nav-link">Product</NavLink></li>
+                 <li><NavLink exact to="/products" className="nav-link">Products</NavLink></li>
                  <li><NavLink exact to="/contact" className="nav-link">Contact us</NavLink></li>
             </ul>
           </div>

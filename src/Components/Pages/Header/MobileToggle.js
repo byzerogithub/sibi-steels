@@ -57,7 +57,7 @@ export default function Header() {
             </li>
             <li>
               <NavLink exact to="/products" className="nav-link">
-                Product
+                Products
               </NavLink>
             </li>
 

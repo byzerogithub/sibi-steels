@@ -27,7 +27,7 @@ const Home = () => (
                   wholesaler, retailer of stainless steel products. Our wide
                   assortment is used across various industries owing to their
                   salient features such as corrosion resistance, high tensile
-                  strength, temperature resistance and ductile.
+                  strength, temperature resistance and ductility.
                   {/* Available in different grades our components undergo several
                   tests to ensure optimum quality. Our vast experience and
                   business expertise is of immense help in creating a niche for
